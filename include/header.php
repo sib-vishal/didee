@@ -35,7 +35,7 @@
 				<div class="rightMenu">
 					<ul>
 						<li><a href="index.php">Home</a></li>
-						<li><a href="about.php">About Us</a></li>
+						<li><a href="about-us.php">About Us</a></li>
 						<li><a href="visa-services.php">Immigration Services</a>
 						<li><a href="visa-services.php">Visa Services</a>
 
@@ -61,7 +61,7 @@
 						</li>
 						<!-- <li><a href="contact.php">Contact Us</a></li> -->
 					</ul>
-					<a href="#" class="btn_1 fontWeight500 simple_btn ms-lg-5 d-md-none d-lg-block">Let's Talk</a>
+					<a href="contact-us.php" class="btn_1 fontWeight500 simple_btn ms-lg-5 d-md-none d-lg-block">Let's Talk</a>
 				</div>
 			</div>
 			<button class="btnMenu d-block d-md-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
