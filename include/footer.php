@@ -1,7 +1,7 @@
 <footer class="footer">
 	<div class="containerFull">
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-5">
 				<div class="leftFooter">
 					<p class="title textFooter text-uppercase fontWeight700">Our Address</p>
 					<h4 class=" mt-lg-3 mt-2">
@@ -16,27 +16,41 @@
 					<h4 class=" mt-lg-3 mt-2"><a href="tel:+91 9320003577">+91 9999999999</a></h4>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-6 offset-lg-1">
-				<div class="row">
-					<div class="col-md-6 col-6">
+			<div class=" col-md-7 ps-5 ">
+				<div class="row ">
+					<div class="col-md-5 ">
 						<div class="itemFooter">
 							<h4 class="small_heading  ">Quick Links</h4>
 							<ul>
 								<li><a href="index.php">Home</a></li>
 								<li><a href="about.php">About Us</a></li>
-								<li><a href="services.php">Our Services</a></li>
+
+								<li><a href="immigration-services.php">Immigration Services</a></li>
+								<li><a href="visa-services.php">Visa Services</a></li>
+								<li><a href="value-added-services.php">Value Added Services </a></li>
 								<li><a href="contact-us.php">Contact Us</a></li>
 							</ul>
 						</div>
 					</div>
-					<div class="col-md-6 col-6">
+					<div class="col-md-7 ">
 						<div class="itemFooter">
-							<h4 class="small_heading ">Terms</h4>
-							<ul>
-								<!-- <li><a href="blogs.php">Latest Blogs</a></li> -->
+							<h4 class="small_heading ">Value Added Services</h4>
+							<!-- <ul>
+								
 								<li><a href="#">Terms &amp; Condition</a></li>
 								<li><a href="#">Privacy Policy</a></li>
 								<li><a href="#">Sitemap</a></li>
+							</ul> -->
+							<ul>
+								<li><a href="train-flight-reservations.php">Train &amp; Flight Reservations</a></li>
+								<li><a href="hotel-reservations.php">Hotel Reservations</a></li>
+								<li><a href="travel-medical-insurance.php">Travel &amp; Medical Insurance</a></li>
+								<li><a href="tour-packages.php">Tour Packages for Europe, Asia</a></li>
+								<li><a href="passport-services.php">Passport Services (PCC, Renewal)</a></li>
+								<li><a href="documents-translations.php">Documents Translations, HRD &amp; MEA
+										Apostille</a>
+								</li>
+								<li><a href="car-rentals.php">Car Rentals Services</a></li>
 							</ul>
 						</div>
 					</div>

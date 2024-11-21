@@ -376,9 +376,10 @@ section {
 }
 .itemFooter ul li a {
   display: inline-block;
-  padding: 12px 10px;
+  padding: 8px 10px;
   color: #333;
   font-weight: 600;
+  font-size: 16px;
 }
 .itemFooter ul li a:hover {
   color: var(--primary-color);
@@ -622,7 +623,7 @@ section {
 .value_wrap .value_box {
   position: relative;
   background-size: 100%;
-  min-height: 350px;
+  min-height: 450px;
   z-index: 1;
 }
 .value_wrap .value_box {

@@ -42,9 +42,11 @@
 
 
 						</li>
-						<li><a href="value-added-services.php">Value Added Services <i
-									class="fa fa-chevron-down ms-2"></i></a>
-							<div class="submenu">
+						<li><a href="value-added-services.php">Value Added Services </a>
+						<!-- <i
+									class="fa fa-chevron-down ms-2"></i>	 -->
+						<!-- <div class="submenu">
+
 								<ul>
 									<li><a href="train-flight-reservations.php">Train & Flight Reservations</a></li>
 									<li><a href="hotel-reservations.php">Hotel Reservations</a></li>
@@ -56,7 +58,7 @@
 									</li>
 									<li><a href="car-rentals.php">Car Rentals Services</a></li>
 								</ul>
-							</div>
+							</div> -->
 
 						</li>
 						<!-- <li><a href="contact.php">Contact Us</a></li> -->
