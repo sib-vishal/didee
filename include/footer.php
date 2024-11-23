@@ -42,15 +42,23 @@
 								<li><a href="#">Sitemap</a></li>
 							</ul> -->
 							<ul>
-								<li><a href="train-flight-reservations.php">Train &amp; Flight Reservations</a></li>
-								<li><a href="hotel-reservations.php">Hotel Reservations</a></li>
-								<li><a href="travel-medical-insurance.php">Travel &amp; Medical Insurance</a></li>
-								<li><a href="tour-packages.php">Tour Packages for Europe, Asia</a></li>
-								<li><a href="passport-services.php">Passport Services (PCC, Renewal)</a></li>
-								<li><a href="documents-translations.php">Documents Translations, HRD &amp; MEA
-										Apostille</a>
-								</li>
-								<li><a href="car-rentals.php">Car Rentals Services</a></li>
+									<ul>
+										<li><a href="value-added-services.php#train-flight-bookings">Train &amp; Flight
+												Reservations</a></li>
+										<li><a href="value-added-services.php#hotel-reservations">Hotel Reservations</a>
+										</li>
+										<li><a href="value-added-services.php#travel-medical-insurance">Travel &amp; Medical
+												Insurance</a></li>
+										<li><a href="value-added-services.php#tour-packages-europe-asia">Tour Packages for
+												Europe, Asia</a></li>
+										<li><a href="value-added-services.php#passport-services-pcc-renewal">Passport
+												Services (PCC, Renewal)</a></li>
+										<li><a href="value-added-services.php#documents-translations-hrd-mea-apostille">Documents
+												Translations, HRD &amp; MEA Apostille</a></li>
+										<li><a href="value-added-services.php#car-rentals-services">Car Rentals Services</a>
+										</li>
+									</ul>
+
 							</ul>
 						</div>
 					</div>

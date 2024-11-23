@@ -161,6 +161,9 @@ section {
 .header .inlineHeader .rightMenu ul a:hover {
   color: var(--primary-color);
 }
+.header .inlineHeader .rightMenu ul a.active {
+  color: var(--primary-color);
+}
 .rightMenu ul li {
   position: relative;
 }
@@ -601,12 +604,11 @@ section {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top right;
-
   background-blend-mode: multiply;
 }
 
 .contact-banner .banner-inner {
-  padding: 100px 0;
+  padding: 130px 0;
 }
 
 /* value added services-banner */
@@ -615,7 +617,7 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top right;
-  padding: 100px 0;
+  padding: 130px 0;
 }
 
 .value_wrap {
@@ -623,7 +625,6 @@ section {
 .value_wrap .value_box {
   position: relative;
   background-size: 100%;
-  min-height: 450px;
   z-index: 1;
 }
 .value_wrap .value_box {
@@ -632,28 +633,28 @@ section {
 }
 .value_wrap .value_box .content {
   padding: 30px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: 2;
+  border: 2px solid var(--primary-color);
 }
-.value_wrap .value_box .web_content {
+.box_title {
+  /* font-size: 20px;
+  line-height: 28px; */
+  color: var(--primary-color);
+}
+/* .value_wrap .value_box .web_content {
   display: grid;
-  grid-template-rows: 0fr;
-
   transition: all 0.4s ease-in-out;
-}
+} */
 .web_content_inner {
   overflow: hidden;
 }
-.value_wrap .value_box:hover .web_content {
+/* .value_wrap .value_box:hover .web_content {
   grid-template-rows: 1fr;
-}
+} */
 .value_wrap .value_box:hover::after {
   background-color: var(--primary-color);
   height: 100%;
 }
-.value_wrap .value_box:after {
+/* .value_wrap .value_box:after {
   content: "";
   display: block;
   width: 100%;
@@ -667,6 +668,16 @@ section {
   );
   z-index: 0;
   transition: all 0.4s ease-in-out;
+} */
+
+.imgbox_value_box {
+  position: sticky;
+  top: 100px;
+}
+.imgbox_value_box img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
 }
 .value_box_link:hover {
   color: var(--secondary-color) !important;
@@ -816,10 +827,141 @@ section {
   /* user-select: none;
   -webkit-user-select: none; */
 }
-.select2-container--default .select2-selection--single .select2-selection__arrow {
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__arrow {
   height: 40px !important;
   /* position: absolute;
   top: 1px;
   right: 1px;
   width: 20px; */
+}
+
+/* Immigration Consultancy */
+.imgbox_imm img {
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
+}
+.imgbox_imm2 img {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+.imgbox_imm3 img {
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
+}
+.lightyellow {
+  background-color: #ffaa0071;
+}
+.lightGray {
+  background-color: var(--third-color);
+}
+
+.why_imm {
+  position: relative;
+}
+
+.why_imm:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100px;
+  height: 100%;
+  background: var(--secondary-color);
+  z-index: -1;
+}
+
+.journey-step-image img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.imm_arrow {
+  font-size: 30px;
+}
+#journey-steps-container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+.journey-step {
+  padding: 10px;
+  border: 2px solid transparent;
+  transition: all 0.5s ease-in-out;
+}
+.journey-step:hover {
+  padding: 10px;
+  border: 2px solid var(--secondary-color);
+}
+
+.bg_spiral {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1012%26quot%3b)' fill='none'%3e%3cpath d='M524.04 618.39C668.1 607.21 768.77 320.91 1019.33 320.47 1269.89 320.03 1385.57 464.57 1514.62 466.07' stroke='rgba(255%2c 169%2c 0%2c 0.38)' stroke-width='2'%3e%3c/path%3e%3cpath d='M406.37 632.29C578.51 628.8 729.08 399.8 1054.6 399.67 1380.11 399.54 1538.36 511.26 1702.82 511.67' stroke='rgba(255%2c 169%2c 0%2c 0.38)' stroke-width='2'%3e%3c/path%3e%3cpath d='M362.26 630.41C521.52 616.43 606.37 299.4 902.55 288.28 1198.73 277.16 1302.95 143.95 1442.84 142.68' stroke='rgba(255%2c 169%2c 0%2c 0.38)' stroke-width='2'%3e%3c/path%3e%3cpath d='M871.35 667.45C999.72 650.42 1047.82 370.01 1284.06 354.45 1520.29 338.89 1586.9 205.6 1696.76 203.25' stroke='rgba(255%2c 169%2c 0%2c 0.38)' stroke-width='2'%3e%3c/path%3e%3cpath d='M588.87 636.79C720.51 583.68 662.97 181.59 924.59 178.88 1186.21 176.17 1422.66 351.08 1596.03 352.48' stroke='rgba(255%2c 169%2c 0%2c 0.38)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1012'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+
+.value_slider .value_box_home {
+  padding: 20px;
+  background-color: #fff;
+}
+.value_slider .value_box_home .content h4 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: all 0.4s ease-in-out;
+}
+.value_slider .value_box_home .content p {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: all 0.4s ease-in-out;
+}
+.value_slider .value_box_home .img_box_value img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+#train-flight-bookings,
+#hotel-reservations,
+#travel-medical-insurance,
+#tour-packages-europe-asia,
+#passport-services-pcc-renewal,
+#documents-translations-hrd-mea-apostille,
+#car-rentals-services {
+  scroll-margin-top: 100px;
+}
+.sliderbtn{
+  display: flex;
+  gap: 15px;
+  justify-content: end;
+}
+.sliderbtn .next_1,.sliderbtn .prev_1{
+background-color: var(--primary-color);
+color: #fff;
+width: 50px;
+height: 50px;
+display: flex;
+align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  transition: all .4s ease-in-out;
+  
+}
+.sliderbtn .next_1:hover,.sliderbtn .prev_1:hover{
+background-color: var(--secondary-color);
+color: #fff;
+width: 50px;
+height: 50px;
+display: flex;
+align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  
 }

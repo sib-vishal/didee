@@ -34,15 +34,15 @@
 			<div class="d-none d-md-block">
 				<div class="rightMenu">
 					<ul>
-						<li><a href="index.php">Home</a></li>
-						<li><a href="about-us.php">About Us</a></li>
-						<li><a href="visa-services.php">Immigration Services</a>
-						<li><a href="visa-services.php">Visa Services</a>
+						<li><a class="<?php echo ($page == 'home') ? 'active' : ''; ?>" href="index.php">Home</a></li>
+						<li><a class="<?php echo ($page == 'about') ? 'active' : ''; ?>" href="about-us.php">About Us</a></li>
+						<li><a class="<?php echo ($page == 'immigration') ? 'active' : ''; ?>" href="immigration-services.php">Immigration Services</a>
+						<li><a class="<?php echo ($page == 'visa-services') ? 'active' : ''; ?>" href="visa-services.php">Visa Services</a>
 
 
 
 						</li>
-						<li><a href="value-added-services.php">Value Added Services </a>
+						<li><a class="<?php echo ($page == 'value-added-services') ? 'active' : ''; ?>" href="value-added-services.php">Value Added Services </a>
 						<!-- <i
 									class="fa fa-chevron-down ms-2"></i>	 -->
 						<!-- <div class="submenu">

@@ -1,4 +1,4 @@
-<?php $page = 'home'; ?>
+<?php $page = 'contact'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,11 +28,11 @@
                         Contact Us
 
                     </h1>
-                    <p class="mt-3 text-white col-lg-5">
+                    <!-- <p class="mt-3 text-white col-lg-5">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, repudiandae unde beatae accusamus
                         laudantium fuga magni vel inventore perferendis ullam explicabo, nesciunt debitis. Itaque dicta
                         repudiandae eos deleniti cum nisi.z
-                    </p>
+                    </p> -->
 
                 </div>
             </div>
