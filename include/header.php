@@ -35,17 +35,21 @@
 				<div class="rightMenu">
 					<ul>
 						<li><a class="<?php echo ($page == 'home') ? 'active' : ''; ?>" href="index.php">Home</a></li>
-						<li><a class="<?php echo ($page == 'about') ? 'active' : ''; ?>" href="about-us.php">About Us</a></li>
-						<li><a class="<?php echo ($page == 'immigration') ? 'active' : ''; ?>" href="immigration-services.php">Immigration Services</a>
-						<li><a class="<?php echo ($page == 'visa-services') ? 'active' : ''; ?>" href="visa-services.php">Visa Services</a>
+						<li><a class="<?php echo ($page == 'about') ? 'active' : ''; ?>" href="about-us.php">About
+								Us</a></li>
+						<li><a class="<?php echo ($page == 'immigration') ? 'active' : ''; ?>"
+								href="immigration-services.php">Immigration Services</a>
+						<li><a class="<?php echo ($page == 'visa-services') ? 'active' : ''; ?>"
+								href="visa-services.php">Visa Services</a>
 
 
 
 						</li>
-						<li><a class="<?php echo ($page == 'value-added-services') ? 'active' : ''; ?>" href="value-added-services.php">Value Added Services </a>
-						<!-- <i
+						<li><a class="<?php echo ($page == 'value-added-services') ? 'active' : ''; ?>"
+								href="value-added-services.php">Value Added Services </a>
+							<!-- <i
 									class="fa fa-chevron-down ms-2"></i>	 -->
-						<!-- <div class="submenu">
+							<!-- <div class="submenu">
 
 								<ul>
 									<li><a href="train-flight-reservations.php">Train & Flight Reservations</a></li>
@@ -63,7 +67,8 @@
 						</li>
 						<!-- <li><a href="contact.php">Contact Us</a></li> -->
 					</ul>
-					<a href="contact-us.php" class="btn_1 fontWeight500 simple_btn ms-lg-5 d-md-none d-lg-block">Let's Talk</a>
+					<a href="contact-us.php" class="btn_1 fontWeight500 simple_btn ms-lg-5 d-md-none d-lg-block">Let's
+						Talk</a>
 				</div>
 			</div>
 			<button class="btnMenu d-block d-md-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
@@ -175,6 +180,15 @@
 		</picture>
 	</a>
 </div> -->
+<div class="whatChat">
+	<a target="_blank" href="https://api.whatsapp.com/send?phone=910123456789&amp;text=Hi">
+		<!-- <p>Chat with us</p> -->
+		<picture>
+			<source srcset="images/icons/whatsapp.webp" type="image/webp">
+			<img src="images/icons/whatsapp.webp">
+		</picture>
+	</a>
+</div>
 
 
 <div class="cursor"></div>

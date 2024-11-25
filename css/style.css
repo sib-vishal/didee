@@ -937,31 +937,68 @@ section {
 #car-rentals-services {
   scroll-margin-top: 100px;
 }
-.sliderbtn{
+.sliderbtn {
   display: flex;
   gap: 15px;
   justify-content: end;
 }
-.sliderbtn .next_1,.sliderbtn .prev_1{
-background-color: var(--primary-color);
-color: #fff;
-width: 50px;
-height: 50px;
-display: flex;
-align-items: center;
+.sliderbtn .next_1,
+.sliderbtn .prev_1 {
+  background-color: var(--primary-color);
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
   justify-content: center;
   border-radius: 30px;
-  transition: all .4s ease-in-out;
-  
+  transition: all 0.4s ease-in-out;
 }
-.sliderbtn .next_1:hover,.sliderbtn .prev_1:hover{
-background-color: var(--secondary-color);
-color: #fff;
-width: 50px;
-height: 50px;
-display: flex;
-align-items: center;
+.sliderbtn .next_1:hover,
+.sliderbtn .prev_1:hover {
+  background-color: var(--secondary-color);
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
   justify-content: center;
   border-radius: 30px;
-  
+}
+
+.whatChat {
+  position: fixed;
+  right: 15px;
+  bottom: 10px;
+  /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; */
+  width: 75px;
+  /* background: #fff; */
+  /* border: 1px solid #e0e0e0; */
+  border-radius: 10px;
+  padding: 4px 12px;
+  z-index: 99;
+}
+.whatChat a {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.whatChat p {
+  font-size: 15px;
+  animation: hideShow 1s infinite ease-in-out;
+}
+@keyframes hideShow {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.whatChat img {
+  width: 50px;
 }

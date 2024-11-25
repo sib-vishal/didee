@@ -522,7 +522,9 @@ We also help facilitate the license formalities. For example, ensure you will be
                 <div class="row justify-content-between">
                     <div class="col-lg-6">
                         <h4 class="fontWeight700 heading fontHeading ">
-                            Value Added Services
+                           <span class="text_primary">Value Added</span> <span class="text_secondary">
+                             Services
+                           </span>
                         </h4>
                     </div>
                     <div class="col-2 sliderbtn">
@@ -561,7 +563,7 @@ We also help facilitate the license formalities. For example, ensure you will be
         <section class="why_choose">
             <div class="containerFull">
                 <h4 class="fontHeading heading fontWeight800">
-                    WHY CHOOSE US
+                <span class="text_primary">   WHY </span> <span class="text_secondary">CHOOSE US</span>
                 </h4>
                 <div class="why_grid mt-4">
                     <?php foreach ($why_choose as $item): ?>
@@ -584,10 +586,10 @@ We also help facilitate the license formalities. For example, ensure you will be
             <div class="containerFull">
                 <div class="row">
                     <div class="col-lg-6">
-                        <small class="fontWeight600">
+                        <small class="fontWeight600 ">
                             GET IN TOUCH
                         </small>
-                        <h4 class="mt-3 fontHeading  heading ">
+                        <h4 class="mt-3 fontHeading  heading text_secondary ">
                             Contact with us for <span class="text_primary">Visa Inquiry</span>
                         </h4>
 
