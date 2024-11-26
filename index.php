@@ -430,6 +430,76 @@ We also help facilitate the license formalities. For example, ensure you will be
         <!-- services_items -->
         <section class="services_items">
             <div class="containerFull">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card_list">
+                            <div class="card_item shadow">
+                                <div class="main_card">
+                                    <div class="card_img">
+                                        <img src="images/icons/advisor.png" alt="">
+                                    </div>
+                                    <div class="card_content">
+                                        <h3 class="fontHeading text_primary">
+                                            CONSULTATION
+                                        </h3>
+                                        <p class="mt-1">
+                                            VISA CONSULTANCY SERVICES, a unit of SSAV BIZ SOLUTIONS PVT. LTD. is a
+                                            leading Study
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card_item shadow">
+                                <div class="main_card">
+                                    <div class="card_img">
+                                        <img src="images/icons/advisor.png" alt="">
+                                    </div>
+                                    <div class="card_content">
+                                        <h3 class="fontHeading text_primary">
+                                            OUR EXPERTISE
+                                        </h3>
+                                        <p class="mt-3">
+                                            The principal directors of VCS have worked at the British High Commission,
+                                            Visa
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="card_item shadow">
+                                <div class="main_card">
+                                    <div class="card_img">
+                                        <img src="images/icons/advisor.png" alt="">
+                                    </div>
+                                    <div class="card_content">
+                                        <h3 class="fontHeading text_primary">
+                                            OUR SUCCESS
+                                        </h3>
+                                        <p class="mt-3">
+                                            Over 23,000 clients across 15+ years of consulting services, is the
+                                            foundation on
+
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ps-5">
+                        <div class="img_box_consultency">
+                            <img class="w-100" src="images/two-business-men-shaking-hands_1423-77.avif" alt="">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- <section class="services_items">
+            <div class="containerFull">
                 <div class="card_grid">
                     <div class="card_item">
                         <div class="main_card">
@@ -486,7 +556,7 @@ We also help facilitate the license formalities. For example, ensure you will be
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <section class="py-5 lightGray  ">
             <div class="containerFull">
                 <div class="row">
@@ -522,9 +592,9 @@ We also help facilitate the license formalities. For example, ensure you will be
                 <div class="row justify-content-between">
                     <div class="col-lg-6">
                         <h4 class="fontWeight700 heading fontHeading ">
-                           <span class="text_primary">Value Added</span> <span class="text_secondary">
-                             Services
-                           </span>
+                            <span class="text_primary">Value Added</span> <span class="text_secondary">
+                                Services
+                            </span>
                         </h4>
                     </div>
                     <div class="col-2 sliderbtn">
@@ -560,10 +630,10 @@ We also help facilitate the license formalities. For example, ensure you will be
         </section>
 
         <!-- why choose us -->
-        <section class="why_choose">
+        <!-- <section class="why_choose">
             <div class="containerFull">
                 <h4 class="fontHeading heading fontWeight800">
-                <span class="text_primary">   WHY </span> <span class="text_secondary">CHOOSE US</span>
+                    <span class="text_primary"> WHY </span> <span class="text_secondary">CHOOSE US</span>
                 </h4>
                 <div class="why_grid mt-4">
                     <?php foreach ($why_choose as $item): ?>
@@ -575,6 +645,74 @@ We also help facilitate the license formalities. For example, ensure you will be
                             <p class="mt-3  fontWeight600"><?php echo $item['title']; ?></p>
                         </div>
                     <?php endforeach; ?>
+
+                </div>
+
+            </div>
+        </section> -->
+
+        <!-- new -->
+        <section class="why_choose">
+            <div class="containerFull">
+                <!-- <h4 class="fontHeading heading fontWeight800">
+                    <span class="text_primary"> WHY </span> <span class="text_secondary">CHOOSE US</span>
+                </h4> -->
+                <div class="why_grid mt-4">
+
+                    <div class="why_card">
+                        <div class="card_img">
+                            <img src="https://www.visa-consultant.com/images/icons/why_choose/suitcase.png" alt="" />
+                        </div>
+                        <p class="mt-3  fontWeight600"><?php echo $why_choose[0]['title']; ?> </p>
+                    </div>
+                    <div class="why_card">
+                        <div class="why_middle">
+                            <div>
+
+                                <!-- <img src="images/logo.jpg" alt=""> -->
+                                <div class="circle_box shadow">
+                                    <h4 class="fontHeading heading fontWeight800 text-center">
+                                        <span class="text_primary"> WHY </span> <span class="text_secondary">CHOOSE <br>
+                                            Di Dee ?</span>
+                                    </h4>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="why_card">
+                        <div class="card_img">
+                            <img src="https://www.visa-consultant.com/images/icons/why_choose/suitcase.png" alt="" />
+                        </div>
+                        <p class="mt-3  fontWeight600"><?php echo $why_choose[1]['title']; ?></p>
+                    </div>
+                    <div class="why_card">
+                        <div class="card_img">
+                            <img src="https://www.visa-consultant.com/images/icons/why_choose/suitcase.png" alt="" />
+                        </div>
+                        <p class="mt-3  fontWeight600"><?php echo $why_choose[2]['title']; ?> </p>
+                    </div>
+                    <div class="why_card">
+                        <div class="card_img">
+                            <img src="https://www.visa-consultant.com/images/icons/why_choose/suitcase.png" alt="" />
+                        </div>
+                        <p class="mt-3  fontWeight600"><?php echo $why_choose[3]['title']; ?></p>
+                    </div>
+                    <div class="why_card">
+                        <div class="card_img">
+                            <img src="https://www.visa-consultant.com/images/icons/why_choose/suitcase.png" alt="" />
+                        </div>
+                        <p class="mt-3  fontWeight600"><?php echo $why_choose[4]['title']; ?></p>
+                    </div>
+                    <div class="why_card">
+                        <div class="card_img">
+                            <img src="https://www.visa-consultant.com/images/icons/why_choose/suitcase.png" alt="" />
+                        </div>
+                        <p class="mt-3  fontWeight600"><?php echo $why_choose[5]['title']; ?></p>
+                    </div>
+
 
                 </div>
 

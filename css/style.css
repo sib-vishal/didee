@@ -520,14 +520,37 @@ section {
   position: relative;
   z-index: 1;
   overflow: hidden;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.services_items .card_item:nth-child(2) {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin-bottom: 30px;
+  /* transform: translateX(100px); */
+  animation: moveRight2 10s infinite alternate;
+  transition: all 0.3s ease-in-out;
+}
+@keyframes moveRight2 {
+  0% {
+    transform: translateX(100px);
+    /* right: 0;   */
+  }
+  100% {
+    /* right: 50px;  */
+    transform: translateX(70px);
+  }
 }
 .services_items .card_item .main_card {
-  padding: 40px;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
   background-color: #fff;
 }
 .services_items .card_item .card_img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 100%;
 
   background-color: var(--secondary-color);
@@ -535,12 +558,14 @@ section {
   align-items: center;
   justify-content: center;
 }
+.services_items .card_item .card_content {
+  width: calc(100% - 80px);
+}
 .services_items .card_item .card_img img {
-  width: 50px;
+  width: 30px;
   object-fit: contain;
 }
 .services_items .card_item .card_content h3 {
-  margin-top: 20px;
   font-weight: 800;
 }
 
@@ -551,15 +576,25 @@ section {
 
 .why_choose .why_grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  /* grid-template-columns: repeat(4, minmax(0, 1fr)); */
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 20px;
 }
-.why_card {
+.why_card:not(:nth-child(2)) {
   padding: 20px;
   background-color: #fff;
   border-radius: 10px;
   transition: all 0.4s ease-in-out;
   border: 2px solid #33333357;
+}
+.why_card:nth-child(2) {
+  grid-row: span 3;
+}
+.why_card:nth-child(4) {
+  transform: translateX(-30px);
+}
+.why_card:nth-child(5) {
+  transform: translateX(30px);
 }
 .why_card .card_img {
   background-color: var(--secondary-color);
@@ -578,13 +613,35 @@ section {
   mix-blend-mode: luminosity;
   /* transition: transform 0.3s ease;  */
 }
-.why_card:hover {
+.why_card:hover:not(:nth-child(2)) {
   background-color: #1c9bea94;
   border: 2px solid var(--primary-color);
   transform: scale(1.05);
 }
+.why_middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.why_middle img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 .why_card:hover .card_img {
   /* transform: scaleX(-1);  */
+}
+.circle_box {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 30px;
+  height: 300px;
+  border-radius: 100%;
 }
 
 /* form_grid */
@@ -1001,4 +1058,14 @@ section {
 }
 .whatChat img {
   width: 50px;
+}
+.img_box_consultency {
+  width: 100%;
+  height: 100%;
+}
+.img_box_consultency img {
+  width: 100%;
+  height: 480px;
+  object-fit: cover;
+  border-radius: 20px;
 }

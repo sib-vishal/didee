@@ -1,4 +1,57 @@
 <?php $page = 'about'; ?>
+<?php
+$why_choose = [
+    [
+        'image' => 'images/icons/why_choose/suitcase.png',
+        'title' => '14+ years of working experience with an Embassy/High Commission'
+    ],
+    [
+        'image' => 'images/icons/why_choose/video-call.png',
+        'title' => '15+ years of excellence in consultancy services'
+    ],
+    [
+        'image' => 'images/icons/why_choose/customer.png',
+        'title' => '23,000+ Satisfied Customer'
+    ],
+    [
+        'image' => 'images/icons/why_choose/graduate.png',
+        'title' => '2,500+ Successful Student Visas'
+    ],
+    [
+        'image' => 'images/icons/why_choose/book.png',
+        'title' => 'Superior knowledge and understanding of visa rules and regulations'
+    ],
+    [
+        'image' => 'images/icons/why_choose/presentation.png',
+        'title' => 'Detailed financial assessment for case profile'
+    ],
+    [
+        'image' => 'images/icons/why_choose/meeting.png',
+        'title' => 'Customized Interview Preparation'
+    ],
+    [
+        'image' => 'images/icons/why_choose/skills.png',
+        'title' => 'Personal and Professional Integrity'
+    ],
+    [
+        'image' => 'images/icons/why_choose/winner.png',
+        'title' => 'Honest, Impartial & Quality Advice'
+    ],
+    [
+        'image' => 'images/icons/why_choose/skill.png',
+        'title' => 'Unmatched Expertise'
+    ],
+    [
+        'image' => 'images/icons/why_choose/relationship.png',
+        'title' => 'Client Focused Personal & Dedicated Approach'
+    ],
+    [
+        'image' => 'images/icons/why_choose/rating.png',
+        'title' => 'Timely Feedback'
+    ]
+];
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -89,7 +142,7 @@
                         <div class="mv_card">
                             <div class="mv_card_inner">
                                 <h4 class=" fontHeading fontWeight800 heading text-white">
-                                    Our <span class="underline">Mission</span> 
+                                    Our <span class="underline">Mission</span>
                                 </h4>
                                 <p class="mt-3 text-white">
                                     14+ years of working experience with an Embassy/High Commission
@@ -108,7 +161,7 @@
                         <div class="mv_card">
                             <div class="mv_card_inner">
                                 <h4 class=" fontHeading fontWeight800 heading text-white">
-                                    Our <span class="underline">Vision</span> 
+                                    Our <span class="underline">Vision</span>
                                 </h4>
                                 <p class="mt-3 text-white">
                                     14+ years of working experience with an Embassy/High Commission
@@ -123,7 +176,7 @@
                         </div>
 
                     </div>
-                  
+
 
                 </div>
 
@@ -132,98 +185,67 @@
 
         </section>
 
-        <section class="why_choose bg-white">
+        <section class="why_choose">
             <div class="containerFull">
-                <h4 class="fontHeading heading fontWeight800">
-                    WHY CHOOSE US
-                </h4>
+                <!-- <h4 class="fontHeading heading fontWeight800">
+                    <span class="text_primary"> WHY </span> <span class="text_secondary">CHOOSE US</span>
+                </h4> -->
                 <div class="why_grid mt-4">
+
                     <div class="why_card">
                         <div class="card_img">
-                            <img src="https://www.visa-consultant.com/images/icons/why_choose/suitcase.png"
-                                alt="14+ years of working experience with an Embassy/High Commission">
+                            <img src="https://www.visa-consultant.com/images/icons/why_choose/suitcase.png" alt="" />
                         </div>
-                        <p class="mt-3  fontWeight600">14+ years of working experience with an Embassy/High Commission
-                        </p>
+                        <p class="mt-3  fontWeight600"><?php echo $why_choose[0]['title']; ?> </p>
+                    </div>
+                    <div class="why_card">
+                        <div class="why_middle">
+                            <div>
+
+                                <!-- <img src="images/logo.jpg" alt=""> -->
+                                <div class="circle_box shadow">
+                                    <h4 class="fontHeading heading fontWeight800 text-center">
+                                        <span class="text_primary"> WHY </span> <span class="text_secondary">CHOOSE <br>
+                                            Di Dee ?</span>
+                                    </h4>
+                                </div>
+
+
+                            </div>
+
+                        </div>
                     </div>
                     <div class="why_card">
                         <div class="card_img">
-                            <img src="https://www.visa-consultant.com/images/icons/why_choose/video-call.png"
-                                alt="15+ years of excellence in consultancy services">
+                            <img src="https://www.visa-consultant.com/images/icons/why_choose/suitcase.png" alt="" />
                         </div>
-                        <p class="mt-3  fontWeight600">15+ years of excellence in consultancy services</p>
+                        <p class="mt-3  fontWeight600"><?php echo $why_choose[1]['title']; ?></p>
                     </div>
                     <div class="why_card">
                         <div class="card_img">
-                            <img src="https://www.visa-consultant.com/images/icons/why_choose/customer.png"
-                                alt="23,000+ Satisfied Customer">
+                            <img src="https://www.visa-consultant.com/images/icons/why_choose/suitcase.png" alt="" />
                         </div>
-                        <p class="mt-3  fontWeight600">23,000+ Satisfied Customer</p>
+                        <p class="mt-3  fontWeight600"><?php echo $why_choose[2]['title']; ?> </p>
                     </div>
                     <div class="why_card">
                         <div class="card_img">
-                            <img src="https://www.visa-consultant.com/images/icons/why_choose/graduate.png"
-                                alt="2,500+ Successful Student Visas">
+                            <img src="https://www.visa-consultant.com/images/icons/why_choose/suitcase.png" alt="" />
                         </div>
-                        <p class="mt-3  fontWeight600">2,500+ Successful Student Visas</p>
+                        <p class="mt-3  fontWeight600"><?php echo $why_choose[3]['title']; ?></p>
                     </div>
                     <div class="why_card">
                         <div class="card_img">
-                            <img src="https://www.visa-consultant.com/images/icons/why_choose/book.png"
-                                alt="Superior knowledge and understanding of visa rules and regulations">
+                            <img src="https://www.visa-consultant.com/images/icons/why_choose/suitcase.png" alt="" />
                         </div>
-                        <p class="mt-3  fontWeight600">Superior knowledge and understanding of visa rules and
-                            regulations</p>
+                        <p class="mt-3  fontWeight600"><?php echo $why_choose[4]['title']; ?></p>
                     </div>
                     <div class="why_card">
                         <div class="card_img">
-                            <img src="https://www.visa-consultant.com/images/icons/why_choose/presentation.png"
-                                alt="Detailed financial assessment for case profile">
+                            <img src="https://www.visa-consultant.com/images/icons/why_choose/suitcase.png" alt="" />
                         </div>
-                        <p class="mt-3  fontWeight600">Detailed financial assessment for case profile</p>
+                        <p class="mt-3  fontWeight600"><?php echo $why_choose[5]['title']; ?></p>
                     </div>
-                    <div class="why_card">
-                        <div class="card_img">
-                            <img src="https://www.visa-consultant.com/images/icons/why_choose/meeting.png"
-                                alt="Customized Interview Preparation">
-                        </div>
-                        <p class="mt-3  fontWeight600">Customized Interview Preparation</p>
-                    </div>
-                    <div class="why_card">
-                        <div class="card_img">
-                            <img src="https://www.visa-consultant.com/images/icons/why_choose/skills.png"
-                                alt="Personal and Professional Integrity">
-                        </div>
-                        <p class="mt-3  fontWeight600">Personal and Professional Integrity</p>
-                    </div>
-                    <div class="why_card">
-                        <div class="card_img">
-                            <img src="https://www.visa-consultant.com/images/icons/why_choose/winner.png"
-                                alt="Honest, Impartial &amp; Quality Advice">
-                        </div>
-                        <p class="mt-3  fontWeight600">Honest, Impartial &amp; Quality Advice</p>
-                    </div>
-                    <div class="why_card">
-                        <div class="card_img">
-                            <img src="https://www.visa-consultant.com/images/icons/why_choose/skill.png"
-                                alt="Unmatched Expertise">
-                        </div>
-                        <p class="mt-3  fontWeight600">Unmatched Expertise</p>
-                    </div>
-                    <div class="why_card">
-                        <div class="card_img">
-                            <img src="https://www.visa-consultant.com/images/icons/why_choose/relationship.png"
-                                alt="Client Focused Personal &amp; Dedicated Approach">
-                        </div>
-                        <p class="mt-3  fontWeight600">Client Focused Personal &amp; Dedicated Approach</p>
-                    </div>
-                    <div class="why_card">
-                        <div class="card_img">
-                            <img src="https://www.visa-consultant.com/images/icons/why_choose/rating.png"
-                                alt="Timely Feedback">
-                        </div>
-                        <p class="mt-3  fontWeight600">Timely Feedback</p>
-                    </div>
+
 
                 </div>
 
