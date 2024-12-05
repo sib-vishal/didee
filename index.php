@@ -549,27 +549,17 @@ We also help facilitate the license formalities. For example, ensure you will be
                             <span class="text_primary">DiDee</span> <span class="text_secondary">Travels</span>
                         </h3>
                         <p class="mt-3">
-                            We are a dedicated team of immigration consultants and legal experts committed to turning
-                            your global aspirations into reality. We provide tailored solutions in accordance with a
-                            deep understanding of immigration policies and processes. Based on transparency,
-                            professionalism, and personalized service, we are the trusted partner for individuals and
-                            families exploring opportunities abroad.
+                        We are a dedicated team of visa consultants and legal experts working to make your dreams of global travel and settlement a reality. We provide customized solutions with deep knowledge of visa policies and application processes. Based on transparency, professionalism, and personalized service, we have been the trusted partner for individuals and families in their complex visa applications.
+
 
                         </p>
                         <p class="mt-2">
-                            At the heart of our services lies a passion for guiding our clients through every step of
-                            their journey, ensuring a seamless experience from consultation to resettlement. We pride
-                            ourselves in being proven and client first, ensuring that we're more than just consultants.
-                            We are your partners for a brighter future.
+                        What forms the core of our services is a passion for helping guide our clients through each and every step of the way in their visa journey-from initial consultation to the ultimate successful approval. Being highly client-focused and result-driven, we are consultants on and above that level-a business partner in creating opportunities overseas.
+
 
                         </p>
                         <p class="mt-2">
-                            We pride ourselves on making complex processes easy to follow, with clear guidance and
-                            strong support at every step. Our team of experts is diverse, allowing us to address a wide
-                            range of immigration needs, so whatever your background or aspirations, we have the tools
-                            and knowledge to help you succeed. We are committed to excellence, and we continue improving
-                            our strategies to stay ahead of the game in an ever-changing global landscape, making us a
-                            reliable partner in your journey to a brighter future.
+                        We specialize in streamlining complex processes, making complicated things simple and giving crystal clear guidance and robust support every step of the way. It serves various visa needs, either on work, study, or travelling visas, or it relates to family reunifications, from a team of people, each having different skillful fields. We have them so that you can, in whatever goals you intend, find help in a dedicated effort toward excellence because the changes are very fast at such a global level of environment change, making us stand tall as a reliable source.
 
 
                         </p>
@@ -591,7 +581,7 @@ We also help facilitate the license formalities. For example, ensure you will be
                             <span class="text_primary">Visa</span> <span class="text_secondary"> Services</span>
                         </h3>
                         <p class="mt-3">
-                            Unmatched Experience, Quality Advice since 2005. We offer Visa assistance for Tourist Visa /
+                            Unmatched Experience, Quality Advice since more than 10 years. We offer Visa assistance for Tourist Visa /
                             Business Visa / Student Visa / Work Visa / Spouse visa / Dependent visa etc.
                         </p>
                         <p class="mt-3">
