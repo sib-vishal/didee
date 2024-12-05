@@ -11,10 +11,11 @@
 						Sector 83
 						Gurugram - 122004
 						Haryana
-<br class="d-none d-lg-block"></h4>
+						<br class="d-none d-lg-block">
+					</h4>
 					<p class="title textFooter text-uppercase mt-4 fontWeight700">Drop us a line</p>
-					<h4 class=" mt-lg-3 mt-2"><a href="mailto: info@dideeinternational.com
-"> info@dideeinternational.com
+					<h4 class=" mt-lg-3 mt-2"><a href="mailto: Info@dideetravels.com
+"> Info@dideetravels.com
 						</a></h4>
 					<p class="title textFooter text-uppercase mt-4 fontWeight700">Call us</p>
 					<h4 class=" mt-lg-3 mt-2"><a href="tel:+919625930455">+919625930455</a></h4>

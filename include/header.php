@@ -2,9 +2,9 @@
 	<div class="containerFull contact-details">
 		<div class="contact-details-inner">
 			<div>
-				<a class="me-2" href="mailto:e info@dideeinternational.com
+				<a class="me-2" href="mailto:e Info@dideetravels.com
 "><i class="fa-regular fa-envelope me-2"></i>
-					info@dideeinternational.com
+					Info@dideetravels.com
 				</a> |
 
 				<a class="ms-2" href="tel:+919625930455"> <i class="fa-solid fa-phone me-2"></i>+919625930455</a>

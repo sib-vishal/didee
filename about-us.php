@@ -103,13 +103,20 @@ $why_choose = [
                                 DiDee Travels
                             </h4>
                             <p class="mt-3">
-                               We are a dedicated team of immigration consultants and legal experts committed to turning your global aspirations into reality. We provide tailored solutions in accordance with a deep understanding of immigration policies and processes. Based on transparency, professionalism, and personalized service, we are the trusted partner for individuals and families exploring opportunities abroad.
+                                We are a dedicated team of immigration consultants and legal experts committed to
+                                turning your global aspirations into reality. We provide tailored solutions in
+                                accordance with a deep understanding of immigration policies and processes. Based on
+                                transparency, professionalism, and personalized service, we are the trusted partner for
+                                individuals and families exploring opportunities abroad.
 
 
                             </p>
                             <p class="mt-3">
-                              
-At the heart of our services lies a passion for guiding our clients through every step of their journey, ensuring a seamless experience from consultation to resettlement. We pride ourselves in being proven and client first, ensuring that we're more than just consultants. We are your partners for a brighter future.
+
+                                At the heart of our services lies a passion for guiding our clients through every step
+                                of their journey, ensuring a seamless experience from consultation to resettlement. We
+                                pride ourselves in being proven and client first, ensuring that we're more than just
+                                consultants. We are your partners for a brighter future.
 
                             </p>
                             <!--<p class="mt-3">-->
@@ -148,7 +155,12 @@ At the heart of our services lies a passion for guiding our clients through ever
                                     Our <span class="underline">Mission</span>
                                 </h4>
                                 <p class="mt-3 text-white">
-                                  Our mission is to empower individuals and families by providing reliable, transparent, and personalized solutions for their immigration and resettlement goals. We strive to simplify the complexities of the process, ensuring that each client's journey is smooth, successful, and stress-free. Through our dedication to excellence, we aim to build lasting relationships based on trust and exceptional service.
+                                    Our mission is to empower individuals and families by providing reliable,
+                                    transparent, and personalized solutions for their immigration and resettlement
+                                    goals. We strive to simplify the complexities of the process, ensuring that each
+                                    client's journey is smooth, successful, and stress-free. Through our dedication to
+                                    excellence, we aim to build lasting relationships based on trust and exceptional
+                                    service.
 
 
 
@@ -167,7 +179,11 @@ At the heart of our services lies a passion for guiding our clients through ever
                                     Our <span class="underline">Vision</span>
                                 </h4>
                                 <p class="mt-3 text-white">
-                                  Our vision is becoming the most trusted and sought after name in the immigration consultancy industry, known for expertise and integrity and a commitment toward success for our clients. We'll strive to make global opportunities possible for everyone, to make sure that borders are bridges toward new possibilities and brighter futures.
+                                    Our vision is becoming the most trusted and sought after name in the immigration
+                                    consultancy industry, known for expertise and integrity and a commitment toward
+                                    success for our clients. We'll strive to make global opportunities possible for
+                                    everyone, to make sure that borders are bridges toward new possibilities and
+                                    brighter futures.
                                 </p>
                             </div>
 
@@ -183,82 +199,48 @@ At the heart of our services lies a passion for guiding our clients through ever
 
         </section>
 
-        <!--<section class="why_choose">-->
-        <!--    <div class="containerFull">-->
-                <!-- <h4 class="fontHeading heading fontWeight800">
-        <!--            <span class="text_primary"> WHY </span> <span class="text_secondary">CHOOSE US</span>-->
-        <!--        </h4> -->-->
-        <!--        <div class="why_grid mt-4">-->
 
-        <!--            <div class="why_card">-->
-        <!--                <div class="card_img">-->
-        <!--                    <img src="https://www.visa-consultant.com/images/icons/why_choose/suitcase.png" alt="" />-->
-        <!--                </div>-->
-        <!--                <p class="mt-3  fontWeight600"><?php echo $why_choose[0]['title']; ?> </p>-->
-        <!--            </div>-->
-        <!--            <div class="why_card">-->
-        <!--                <div class="why_middle">-->
-        <!--                    <div>-->
-
-                                <!-- <img src="images/logo.jpg" alt=""> -->
-        <!--                        <div class="circle_box shadow">-->
-        <!--                            <h4 class="fontHeading heading fontWeight800 text-center">-->
-        <!--                                <span class="text_primary"> WHY </span> <span class="text_secondary">CHOOSE <br>-->
-        <!--                                    Di Dee ?</span>-->
-        <!--                            </h4>-->
-        <!--                        </div>-->
-
-
-        <!--                    </div>-->
-
-        <!--                </div>-->
-        <!--            </div>-->
-        <!--            <div class="why_card">-->
-        <!--                <div class="card_img">-->
-        <!--                    <img src="https://www.visa-consultant.com/<?php echo $why_choose[1]['image']; ?>" alt="" />-->
-        <!--                </div>-->
-        <!--                <p class="mt-3  fontWeight600"><?php echo $why_choose[1]['title']; ?></p>-->
-        <!--            </div>-->
-        <!--            <div class="why_card">-->
-        <!--                <div class="card_img">-->
-        <!--                    <img src="https://www.visa-consultant.com/<?php echo $why_choose[2]['image']; ?>" alt="" />-->
-        <!--                </div>-->
-        <!--                <p class="mt-3  fontWeight600"><?php echo $why_choose[2]['title']; ?> </p>-->
-        <!--            </div>-->
-        <!--            <div class="why_card">-->
-        <!--                <div class="card_img">-->
-        <!--                    <img src="https://www.visa-consultant.com/<?php echo $why_choose[3]['image']; ?>" alt="" />-->
-        <!--                </div>-->
-        <!--                <p class="mt-3  fontWeight600"><?php echo $why_choose[3]['title']; ?></p>-->
-        <!--            </div>-->
-        <!--            <div class="why_card">-->
-        <!--                <div class="card_img">-->
-        <!--                    <img src="https://www.visa-consultant.com/<?php echo $why_choose[4]['image']; ?>" alt="" />-->
-        <!--                </div>-->
-        <!--                <p class="mt-3  fontWeight600"><?php echo $why_choose[4]['title']; ?></p>-->
-        <!--            </div>-->
-        <!--            <div class="why_card">-->
-        <!--                <div class="card_img">-->
-        <!--                    <img src="https://www.visa-consultant.com/<?php echo $why_choose[5]['image']; ?>" alt="" />-->
-        <!--                </div>-->
-        <!--                <p class="mt-3  fontWeight600"><?php echo $why_choose[5]['title']; ?></p>-->
-        <!--            </div>-->
-
-
-        <!--        </div>-->
-
-        <!--    </div>-->
-        <!--</section>-->
-        <!--save your time-->
         <section>
             <div class="containerFull">
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-lg-8 offset-lg-2 col-md-12 text-center mb-5">
                         <h4 class="heading fontHeading fontWeight800">Save your time and money by choosing Our highly
                             performant team.</h4>
                     </div>
+                </div> -->
+                <div class="row justify-content-center director_sec">
+                    <div class="col-lg-9">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 pe-5">
+                                <div class="img_box shadow">
+
+                                    <img src="https://placehold.co/350x350" alt="">
+                                </div>
+
+                            </div>
+                            <div class="col-lg-6">
+                                <h4 class=" mb-2 heading fontHeading text_primary">
+                                    John Deu
+                                </h4>
+                                <small class="text_secondary fontWeight700">
+                                    Director of the Company
+                                </small>
+                                <p class="mt-4">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam debitis id laudantium
+                                    ducimus fugit. Perspiciatis fugiat sint vero dicta, necessitatibus explicabo maxime
+                                    vitae, repellendus autem accusantium dolor, eaque facere tenetur. Sapiente nulla
+                                    ducimus fugit. Perspiciatis fugiat sint vero dicta, necessitatibus explicabo maxime
+                                    vitae, repellendus autem accusantium dolor.
+                               
+                                </p>
+                            </div>
+
+
+                        </div>
+                    </div>
+
                 </div>
-                <div class="row g-5">
+                <!-- <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
                         <div class="card text-center">
                             <div class="card-body py-5">
@@ -356,7 +338,7 @@ At the heart of our services lies a passion for guiding our clients through ever
                         </div>
                     </div>
                    
-                </div>
+                </div> -->
             </div>
         </section>
 
