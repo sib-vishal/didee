@@ -132,7 +132,7 @@ $values = [
                         <div class="value_wrap py-5">
                             <?php foreach ($values as $value): ?>
                                 <div id="<?php echo $value['id'] ?>" class="value_box mb-4 <?php echo $value['reverse'] ? 'reverse' : ''; ?>"
-                                    data-image-url="https://www.visa-consultant.com/<?php echo $value['image']; ?>">
+                                    data-image-url="<?php echo $value['image']; ?>">
 
                                     <div class="content b">
                                         <h4 class="box_title fontHeading heading "><span

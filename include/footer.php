@@ -5,15 +5,19 @@
 				<div class="leftFooter">
 					<p class="title textFooter text-uppercase fontWeight700">Our Address</p>
 					<h4 class=" mt-lg-3 mt-2">
-						407 South 10TH ST Suite 103
-
-
-
-						Philadelphia, PA 19147<br class="d-none d-lg-block"></h4>
+						Didee Travels
+						1009, 10th floor
+						SVH Metro Street
+						Sector 83
+						Gurugram - 122004
+						Haryana
+<br class="d-none d-lg-block"></h4>
 					<p class="title textFooter text-uppercase mt-4 fontWeight700">Drop us a line</p>
-					<h4 class=" mt-lg-3 mt-2"><a href="mailto:exp@visa-consultant.com">exp@visa-consultant.com</a></h4>
+					<h4 class=" mt-lg-3 mt-2"><a href="mailto: info@dideeinternational.com
+"> info@dideeinternational.com
+						</a></h4>
 					<p class="title textFooter text-uppercase mt-4 fontWeight700">Call us</p>
-					<h4 class=" mt-lg-3 mt-2"><a href="tel:+91 9320003577">+91 9999999999</a></h4>
+					<h4 class=" mt-lg-3 mt-2"><a href="tel:+919625930455">+919625930455</a></h4>
 				</div>
 			</div>
 			<div class=" col-md-7 ps-5 ">
@@ -23,9 +27,9 @@
 							<h4 class="small_heading  ">Quick Links</h4>
 							<ul>
 								<li><a href="index.php">Home</a></li>
-								<li><a href="about.php">About Us</a></li>
+								<li><a href="about-us.php">About Us</a></li>
 
-								<li><a href="immigration-services.php">Immigration Services</a></li>
+								<!-- <li><a href="immigration-services.php">Immigration Services</a></li> -->
 								<li><a href="visa-services.php">Visa Services</a></li>
 								<li><a href="value-added-services.php">Value Added Services </a></li>
 								<li><a href="contact-us.php">Contact Us</a></li>
@@ -42,22 +46,22 @@
 								<li><a href="#">Sitemap</a></li>
 							</ul> -->
 							<ul>
-									<ul>
-										<li><a href="value-added-services.php#train-flight-bookings">Train &amp; Flight
-												Reservations</a></li>
-										<li><a href="value-added-services.php#hotel-reservations">Hotel Reservations</a>
-										</li>
-										<li><a href="value-added-services.php#travel-medical-insurance">Travel &amp; Medical
-												Insurance</a></li>
-										<li><a href="value-added-services.php#tour-packages-europe-asia">Tour Packages for
-												Europe, Asia</a></li>
-										<li><a href="value-added-services.php#passport-services-pcc-renewal">Passport
-												Services (PCC, Renewal)</a></li>
-										<li><a href="value-added-services.php#documents-translations-hrd-mea-apostille">Documents
-												Translations, HRD &amp; MEA Apostille</a></li>
-										<li><a href="value-added-services.php#car-rentals-services">Car Rentals Services</a>
-										</li>
-									</ul>
+								<ul>
+									<li><a href="value-added-services.php#train-flight-bookings">Train &amp; Flight
+											Reservations</a></li>
+									<li><a href="value-added-services.php#hotel-reservations">Hotel Reservations</a>
+									</li>
+									<li><a href="value-added-services.php#travel-medical-insurance">Travel &amp; Medical
+											Insurance</a></li>
+									<li><a href="value-added-services.php#tour-packages-europe-asia">Tour Packages for
+											Europe, Asia</a></li>
+									<li><a href="value-added-services.php#passport-services-pcc-renewal">Passport
+											Services (PCC, Renewal)</a></li>
+									<li><a href="value-added-services.php#documents-translations-hrd-mea-apostille">Documents
+											Translations, HRD &amp; MEA Apostille</a></li>
+									<li><a href="value-added-services.php#car-rentals-services">Car Rentals Services</a>
+									</li>
+								</ul>
 
 							</ul>
 						</div>
@@ -68,7 +72,7 @@
 	</div>
 	<div class="containerFull">
 		<div class="copyRight d-flex flex-wrap align-items-center justify-content-between">
-			<p class="textFooter">© 2024 De Dee Travels | All Rights Reserved</p>
+			<p class="textFooter">© 2024 Di Dee Travels | All Rights Reserved</p>
 			<div class="socialMediaIcons mt-md-3 mt-lg-0">
 				<ul>
 					<li><a class="facebook" href="#"><i class="fab fa-facebook-square"></i> Facebook</a></li>

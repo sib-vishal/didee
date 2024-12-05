@@ -189,7 +189,7 @@ $immigrationJourneySteps = [
                     on best practices, and offering advice on the most effective methods to secure visas.
                 </p>
 
-                <div id="journey-steps-container" class="mt-5">
+                <!-- <div id="journey-steps-container" class="mt-5">
                     <?php foreach ($immigrationJourneySteps as $step): ?>
                         <div class="journey-step">
                             <div class="journey-step-image">
@@ -206,6 +206,9 @@ $immigrationJourneySteps = [
                             </div>
                         </div>
                     <?php endforeach; ?>
+                </div> -->
+                <div class="mt-3">
+                    <img class="w-100" src="images/process.jpg" alt="">
                 </div>
             </div>
         </section>

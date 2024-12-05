@@ -1,57 +1,272 @@
 <?php $page = 'home'; ?>
 <?php
-$why_choose = [
+$countries = [
     [
-        'image' => 'images/icons/why_choose/suitcase.png',
-        'title' => '14+ years of working experience with an Embassy/High Commission'
+        'cid' => 7,
+        'name' => 'UK',
+        'image' => 'images/country/UK PIC.jpg',
+        'flag' => 'images/flag/uk (1).jpg',
+        'services' => [
+            [
+                'title' => 'Reapplication of Refused Cases',
+                'url' => 'https://marketingexperts.in/projects/didee/reapplication.php',
+                'icon' => 'fa-briefcase'
+            ],
+            [
+                'title' => 'Tourist Visa',
+                'url' => 'https://marketingexperts.in/projects/didee/uk-tourist-visa',
+                'icon' => 'fa-briefcase'
+            ],
+            [
+                'title' => 'Short Term Student Visa',
+                'url' => 'https://marketingexperts.in/projects/didee/uk-short-term-student-visa',
+                'icon' => 'fa-briefcase'
+            ],
+            [
+                'title' => 'Transit Visa',
+                'url' => 'https://marketingexperts.in/projects/didee/uk-transit-visa',
+                'icon' => 'fa-briefcase'
+            ],
+            [
+                'title' => 'Visit - PLAB',
+                'url' => 'https://marketingexperts.in/projects/didee/uk-visit-plab',
+                'icon' => 'fa-briefcase'
+            ],
+            [
+                'title' => 'Business Visa',
+                'url' => 'https://marketingexperts.in/projects/didee/uk-business-visa',
+                'icon' => 'fa-briefcase'
+            ],
+            [
+                'title' => 'Settlement Visa',
+                'url' => 'https://marketingexperts.in/projects/didee/uk-settlement-visa',
+                'icon' => 'fa-briefcase'
+            ],
+            [
+                'title' => 'Tier 4 - Student Dependent Visa',
+                'url' => 'https://marketingexperts.in/projects/didee/uk-tier-4-student-dependent-visa',
+                'icon' => 'fa-briefcase'
+            ],
+            [
+                'title' => 'Tier 2 (PBS) - Dependent',
+                'url' => 'https://marketingexperts.in/projects/didee/uk-tier-2-(pbs)-dependent',
+                'icon' => 'fa-briefcase'
+            ],
+            [
+                'title' => 'Tier 2 (PBS) - General',
+                'url' => 'https://marketingexperts.in/projects/didee/uk-tier-2-(pbs)-general',
+                'icon' => 'fa-briefcase'
+            ],
+            [
+                'title' => 'Tier 4 - Student Visa',
+                'url' => 'https://marketingexperts.in/projects/didee/uk-tier-4-student-visa',
+                'icon' => 'fa-briefcase'
+            ]
+        ]
     ],
     [
-        'image' => 'images/icons/why_choose/video-call.png',
-        'title' => '15+ years of excellence in consultancy services'
+        'cid' => 8,
+        'name' => 'USA',
+        'image' => 'images/country/USA PIC.jpg',
+        'flag' => 'images/flag/usa (1).jpg',
+        
+        'services' => [
+            [
+                'title' => 'Tourist Visa',
+                'url' => 'https://marketingexperts.in/projects/didee/usa-tourist-visa',
+                'icon' => 'fa-briefcase'
+            ],
+            [
+                'title' => 'Student Visa',
+                'url' => 'https://marketingexperts.in/projects/didee/usa-student-visa',
+                'icon' => 'fa-graduation-cap'
+            ],
+            [
+                'title' => 'Work Visa',
+                'url' => 'https://marketingexperts.in/projects/didee/usa-work-visa',
+                'icon' => 'fa-briefcase'
+            ],
+            [
+                'title' => 'Business Visa',
+                'url' => 'https://marketingexperts.in/projects/didee/usa-business-visa',
+                'icon' => 'fa-briefcase'
+            ]
+        ]
     ],
     [
-        'image' => 'images/icons/why_choose/customer.png',
-        'title' => '23,000+ Satisfied Customer'
+        'cid' => 9,
+        'name' => 'CANADA',
+         
+        'image' => 'images/country/canada.jpg',
+        'flag' => 'images/flag/canada (1).jpg',
+        'services' => [
+            [
+                'title' => 'Work Visa',
+                'url' => 'https://marketingexperts.in/projects/didee/canada-work-visa',
+                'icon' => 'fa-briefcase'
+            ],
+            [
+                'title' => 'Study Visa',
+                'url' => 'https://marketingexperts.in/projects/didee/canada-study-visa',
+                'icon' => 'fa-graduation-cap'
+            ],
+            [
+                'title' => 'Visitor Visa',
+                'url' => 'https://marketingexperts.in/projects/didee/canada-visitor-visa',
+                'icon' => 'fa-plane'
+            ]
+        ]
     ],
     [
-        'image' => 'images/icons/why_choose/graduate.png',
-        'title' => '2,500+ Successful Student Visas'
+        'cid' => 6,
+        'name' => 'AUSTRALIA',
+   
+        'image' => 'images/country/australia.jpg',
+        'flag' => 'images/flag/australia.png',
+        'services' => [
+            [
+                'title' => 'Visitor Visa',
+                'url' => 'https://marketingexperts.in/projects/didee/australia-visitor-visa',
+                'icon' => 'fa-plane'
+            ],
+            [
+                'title' => 'Work Visa',
+                'url' => 'https://marketingexperts.in/projects/didee/australia-work-visa',
+                'icon' => 'fa-briefcase'
+            ],
+            [
+                'title' => 'Student Visa',
+                'url' => 'https://marketingexperts.in/projects/didee/australia-student-visa',
+                'icon' => 'fa-graduation-cap'
+            ]
+        ]
     ],
     [
-        'image' => 'images/icons/why_choose/book.png',
-        'title' => 'Superior knowledge and understanding of visa rules and regulations'
+        'cid' => 59,
+        'name' => 'NEW ZEALAND',
+     
+        'image' => 'images/country/NZ PIC.jpg',
+        'flag' => 'images/flag/nz-flag.png',
+        'services' => [
+            [
+                'title' => 'Visitor Visa',
+                'url' => 'https://marketingexperts.in/projects/didee/new-zealand-visitor-visa',
+                'icon' => 'fa-plane'
+            ],
+            [
+                'title' => 'Student Visa',
+                'url' => 'https://marketingexperts.in/projects/didee/new-zealand-student-visa',
+                'icon' => 'fa-graduation-cap'
+            ],
+            [
+                'title' => 'Work Visa',
+                'url' => 'https://marketingexperts.in/projects/didee/new-zealand-work-visa',
+                'icon' => 'fa-briefcase'
+            ]
+        ]
     ],
     [
-        'image' => 'images/icons/why_choose/presentation.png',
-        'title' => 'Detailed financial assessment for case profile'
+        'cid' => 45,
+        'name' => 'IRELAND',
+ 
+        'image' => 'images/country/IRELAND PIC.jpg',
+        'flag' => 'images/flag/ireland.jpg',
+        'services' => [
+            [
+                'title' => 'Tourist Visa',
+                'url' => 'https://marketingexperts.in/projects/didee/ireland-tourist-visa',
+                'icon' => 'fa-briefcase'
+            ],
+            [
+                'title' => 'Work Visa',
+                'url' => 'https://marketingexperts.in/projects/didee/ireland-work-visa',
+                'icon' => 'fa-briefcase'
+            ],
+            [
+                'title' => 'Student Visa',
+                'url' => 'https://marketingexperts.in/projects/didee/ireland-student-visa',
+                'icon' => 'fa-graduation-cap'
+            ]
+        ]
     ],
     [
-        'image' => 'images/icons/why_choose/meeting.png',
-        'title' => 'Customized Interview Preparation'
+        'cid' => 47,
+        'name' => 'JAPAN',
+ 
+        'image' => 'images/country/Japan pic.jpg',
+        'flag' => 'images/flag/Flag-Japan (1).jpg',
+        'services' => [
+            [
+                'title' => 'Tourist Visa',
+                'url' => 'https://marketingexperts.in/projects/didee/japan-tourist-visa',
+                'icon' => 'fa-briefcase'
+            ],
+            [
+                'title' => 'Work Visa',
+                'url' => 'https://marketingexperts.in/projects/didee/japan-work-visa',
+                'icon' => 'fa-briefcase'
+            ],
+            [
+                'title' => 'Student Visa',
+                'url' => 'https://marketingexperts.in/projects/didee/japan-student-visa',
+                'icon' => 'fa-graduation-cap'
+            ]
+        ]
     ],
     [
-        'image' => 'images/icons/why_choose/skills.png',
-        'title' => 'Personal and Professional Integrity'
-    ],
-    [
-        'image' => 'images/icons/why_choose/winner.png',
-        'title' => 'Honest, Impartial & Quality Advice'
-    ],
-    [
-        'image' => 'images/icons/why_choose/skill.png',
-        'title' => 'Unmatched Expertise'
-    ],
-    [
-        'image' => 'images/icons/why_choose/relationship.png',
-        'title' => 'Client Focused Personal & Dedicated Approach'
-    ],
-    [
-        'image' => 'images/icons/why_choose/rating.png',
-        'title' => 'Timely Feedback'
+        'cid' => 0, // Schengen doesn't have a country ID, but it can be handled as a special case
+        'name' => 'Schengen',
+        'image' => 'https://www.visa-consultant.com/images/countries/schengen-pic.jpg',
+        'flag' => 'placeholder.co/200', // No flag image for Schengen
+        'services' => [
+            [
+                'title' => 'Tourist Visa',
+                'url' => 'https://marketingexperts.in/projects/didee/schengen-tourist-visa',
+                'icon' => 'fa-plane'
+            ],
+            [
+                'title' => 'Business Visa',
+                'url' => 'https://marketingexperts.in/projects/didee/schengen-business-visa',
+                'icon' => 'fa-briefcase'
+            ]
+        ]
     ]
 ];
-
 ?>
+
+<?php
+$featuresData = [
+    [
+        'title' => 'Knowledge',
+        'description' => 'We have full knowledge of Immigration services, visa assistance, Translations, & notary services screening of documentation.',
+        'image' => 'images/icons/why/knowledge.png'
+    ],
+    [
+        'title' => 'Client Centric',
+        'description' => 'We try our very best to provide candidates with most suitable position in their respective fields.',
+        'image' => 'images/icons/why/centric.png'
+    ],
+    [
+        'title' => 'Innovative',
+        'description' => 'Our extensive global managed CV database enables us to provide local & global staff.',
+        'image' => 'images/icons/why/innovative.png'
+    ],
+    [
+        'title' => 'Excellence',
+        'description' => 'We committed to deliver a world class people of industry.',
+        'image' => 'images/icons/why/excellence.png'
+    ],
+    [
+        'title' => 'Integrity',
+        'description' => 'We always work honestly, integrity and respect the ethical values.',
+        'image' => 'images/icons/why/integrity.png'
+    ],
+    [
+        'title' => 'Client Satisfaction',
+        'description' => 'We make sure our clients are 100% satisfied with our services & talent delivered.',
+        'image' => 'images/icons/why/satisfaction.png'
+    ]
+]; ?>
 
 <?php
 
@@ -191,12 +406,12 @@ We also help facilitate the license formalities. For example, ensure you will be
                                             <h2 class="mt-1 small_heading text-white">
                                                 Your Trusted Partner in Visa <br /> and Travel Services
                                             </h2>
-                                            <p class="mt-3 fontWeight500 text-white">
+                                            <!-- <p class="mt-3 fontWeight500 text-white">
                                                 With 14+ years of experience working with embassies and high
                                                 commissions, we
                                                 help
                                                 you unlock your international journey with confidence.
-                                            </p>
+                                            </p> -->
                                             <div class="mt-5">
                                                 <a class="btn_3" href="tel:+91-0123456789">
                                                     <span class=" btn_icon bg-white circle pulse">
@@ -238,12 +453,12 @@ We also help facilitate the license formalities. For example, ensure you will be
                                             <h2 class="mt-1 small_heading text-white">
                                                 Your Trusted Partner in Visa <br /> and Travel Services
                                             </h2>
-                                            <p class="mt-3 fontWeight500 text-white">
+                                            <!-- <p class="mt-3 fontWeight500 text-white">
                                                 With 14+ years of experience working with embassies and high
                                                 commissions, we
                                                 help
                                                 you unlock your international journey with confidence.
-                                            </p>
+                                            </p> -->
                                             <div class="mt-5">
                                                 <a class="btn_3" href="tel:+91-0123456789">
                                                     <span class=" btn_icon bg-white circle pulse">
@@ -281,12 +496,12 @@ We also help facilitate the license formalities. For example, ensure you will be
                                             <h2 class="mt-1 small_heading text-white">
                                                 Your Trusted Partner in Visa <br /> and Travel Services
                                             </h2>
-                                            <p class="mt-3 fontWeight500 text-white">
+                                            <!-- <p class="mt-3 fontWeight500 text-white">
                                                 With 14+ years of experience working with embassies and high
                                                 commissions, we
                                                 help
                                                 you unlock your international journey with confidence.
-                                            </p>
+                                            </p> -->
                                             <div class="mt-5">
                                                 <a class="btn_3" href="tel:+91-0123456789">
                                                     <span class=" btn_icon bg-white circle pulse">
@@ -334,26 +549,29 @@ We also help facilitate the license formalities. For example, ensure you will be
                             <span class="text_primary">DiDee</span> <span class="text_secondary">Travels</span>
                         </h3>
                         <p class="mt-3">
-                            Visa Consultancy Services is a leading immigration consulting firm based out of Delhi NCR
-                            but one which services clients all over the country. Set up in 2005, its principal directors
-                            have over 14 years of work experience between them with various embassies in New Delhi.
-                        </p>
-                        <p class="mt-2">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quibusdam maxime ipsam
-                            commodi deleniti sequi ipsa dolorum hic delectus, vel magni aliquam consectetur iusto nam
-                            asperiores necessitatibus,
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quibusdam maxime ipsam
-                            commodi deleniti sequi ipsa dolorum hic delectus, vel magni aliquam consectetur iusto nam
-                            asperiores necessitatibus,
+                            We are a dedicated team of immigration consultants and legal experts committed to turning
+                            your global aspirations into reality. We provide tailored solutions in accordance with a
+                            deep understanding of immigration policies and processes. Based on transparency,
+                            professionalism, and personalized service, we are the trusted partner for individuals and
+                            families exploring opportunities abroad.
 
                         </p>
                         <p class="mt-2">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quibusdam maxime ipsam
-                            commodi deleniti sequi ipsa dolorum hic delectus, vel magni aliquam consectetur iusto nam
-                            asperiores necessitatibus,
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quibusdam maxime ipsam
-                            commodi deleniti sequi ipsa dolorum hic delectus, vel magni aliquam consectetur iusto nam
-                            asperiores necessitatibus,
+                            At the heart of our services lies a passion for guiding our clients through every step of
+                            their journey, ensuring a seamless experience from consultation to resettlement. We pride
+                            ourselves in being proven and client first, ensuring that we're more than just consultants.
+                            We are your partners for a brighter future.
+
+                        </p>
+                        <p class="mt-2">
+                            We pride ourselves on making complex processes easy to follow, with clear guidance and
+                            strong support at every step. Our team of experts is diverse, allowing us to address a wide
+                            range of immigration needs, so whatever your background or aspirations, we have the tools
+                            and knowledge to help you succeed. We are committed to excellence, and we continue improving
+                            our strategies to stay ahead of the game in an ever-changing global landscape, making us a
+                            reliable partner in your journey to a brighter future.
+
+
                         </p>
                     </div>
                 </div>
@@ -366,7 +584,7 @@ We also help facilitate the license formalities. For example, ensure you will be
                 <div class="row">
                     <div class="col-lg-6">
                         <small class="fontWeight600">
-                            Our Services
+                            Countries That We Open Doors To
                         </small>
 
                         <h3 class="mt-2 heading fontWeight800 fontHeading">
@@ -377,15 +595,17 @@ We also help facilitate the license formalities. For example, ensure you will be
                             Business Visa / Student Visa / Work Visa / Spouse visa / Dependent visa etc.
                         </p>
                         <p class="mt-3">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur vel earum, ipsam
-                            necessitatibus aliquam fugiat hic veniam unde beatae veritatis. Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Laborum, commodi.
+                            Di Dee Immigration specializes in visa services for education, employment, business, and
+                            permanent residency, offering personalized guidance throughout the process. Our experts
+                            ensure all documents and requirements are met, boosting your chances of success. We focus on
+                            Skilled Worker, Business, Student, and Residency Visas, providing a seamless, stress-free
+                            experience.
                         </p>
                         <div class="row row-cols-3 mt-4 servires_info">
                             <div class="item_row">
                                 <h4>
 
-                                    23,000+
+                                    1000+
                                 </h4>
                                 <small>
                                     SATISFIED
@@ -396,23 +616,14 @@ We also help facilitate the license formalities. For example, ensure you will be
                             <div class="item_row">
                                 <h4>
 
-                                    14+ Years
+                                    10+ Years
                                 </h4>
                                 <small>
                                     Working experience
                                 </small>
 
                             </div>
-                            <div class="item_row">
-                                <h4>
-
-                                    15+ Years
-                                </h4>
-                                <small>
-                                    consultation services
-                                </small>
-
-                            </div>
+                            
 
                         </div>
 
@@ -420,11 +631,51 @@ We also help facilitate the license formalities. For example, ensure you will be
                     </div>
                     <div class="col-lg-6">
                         <img class="w-100"
-                            src="https://img.freepik.com/free-vector/flat-travel-background_23-2148050086.jpg?t=st=1731934255~exp=1731937855~hmac=8f06ed29cdc438d9f9e908905fc63548f7609471088668e44a8775d1c078e38c&w=740"
+                            src="images/flat-travel-background_23-2148050086.avif"
                             alt="">
                     </div>
                 </div>
             </div>
+            <div class="containerFull ">
+
+                <div class="swiper countries_slider mt-4">
+                    <div class="swiper-wrapper">
+                        <?php foreach ($countries as $country): ?>
+                            <div class="swiper-slide pb-5 pt-2">
+
+                                <div class=" ">
+                                    <div type="button" data-bs-toggle="modal" data-bs-target="#model<?= $country['cid']; ?>"
+                                        class="country_box home_country_box">
+                                        <div class="flag">
+                                            <?php if ($country['flag']): ?>
+                                                <img class="" src="<?= $country['flag']; ?>" alt="">
+                                            <?php endif; ?>
+                                        </div>
+
+                                        <div class="img">
+                                            <img class="w-100" src="<?= $country['image']; ?>" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <!-- <div class="flag">
+                                            <?php if ($country['flag']): ?>
+                                                <img class="" src="<?= $country['flag']; ?>" alt="">
+                                            <?php endif; ?>
+                                        </div> -->
+                                            <p class="name fontWeight600"><?= $country['name']; ?></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php endforeach; ?>
+
+                    </div>
+                    <!-- <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div> -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+
         </section>
 
         <!-- services_items -->
@@ -443,9 +694,7 @@ We also help facilitate the license formalities. For example, ensure you will be
                                             CONSULTATION
                                         </h3>
                                         <p class="mt-1">
-                                            VISA CONSULTANCY SERVICES, a unit of SSAV BIZ SOLUTIONS PVT. LTD. is a
-                                            leading Study
-
+                                            Personalized guidance to simplify your immigration journey.
                                         </p>
                                     </div>
                                 </div>
@@ -460,8 +709,7 @@ We also help facilitate the license formalities. For example, ensure you will be
                                             OUR EXPERTISE
                                         </h3>
                                         <p class="mt-3">
-                                            The principal directors of VCS have worked at the British High Commission,
-                                            Visa
+                                            Industry-leading knowledge to ensure seamless visa processes.
 
                                     </div>
                                 </div>
@@ -477,8 +725,7 @@ We also help facilitate the license formalities. For example, ensure you will be
                                             OUR SUCCESS
                                         </h3>
                                         <p class="mt-3">
-                                            Over 23,000 clients across 15+ years of consulting services, is the
-                                            foundation on
+                                            Proven results with hundreds of satisfied clients globally.
 
                                         </p>
                                     </div>
@@ -557,26 +804,29 @@ We also help facilitate the license formalities. For example, ensure you will be
                 </div>
             </div>
         </section> -->
-        <section class="py-5 lightGray  ">
+        <section class="py-5 " style="background:#1c9bea94">
             <div class="containerFull">
                 <div class="row">
-                    <div class="col-lg-10 offset-lg-1">
+                    <div class="col-lg-12 ">
 
                         <div class="row align-items-center">
-                            <div class="col-lg-2 col-md-2 text-center aos-init aos-animate" data-aos="zoom-in-up">
-                                <img src="images/logo.jpg" class="w-100 logoIcons">
-                            </div>
-                            <div class="col-lg-5 col-md-5 aos-init aos-animate" data-aos="zoom-in-up">
+                            <!--<div class="col-lg-2 col-md-2 text-center aos-init aos-animate" data-aos="zoom-in-up">-->
+                            <!--    <img src="images/logo.jpg" class="w-100 logoIcons">-->
+                            <!--</div>-->
+                            <div class="col-lg-7 col-md-5 aos-init aos-animate" data-aos="zoom-in-up">
                                 <div class="missedCall">
-                                    <h4 class="heading text_primary text-uppercase fontWeight700">Give us a call!</h4>
-                                    <p class="medium_heading mt-2">YOUR SOLUTION SPECIALIST</p>
+                                    <h4 class=" text-light fontHeading sub_heading text-uppercase fontWeight700">Have
+                                        questions or need assistance? <span class="text_secondary"> Contact us today for
+                                            expert guidance!</span></h4>
+                                    <!--<p class="medium_heading mt-2">YOUR SOLUTION SPECIALIST</p>-->
                                 </div>
                             </div>
                             <div class="col-lg-5 col-md-5 aos-init aos-animate" data-aos="zoom-in-up">
-                                <div class="contactRightHome">
-                                    <h5 class="small_heading fontWeight300"><a class="text_secondary"
-                                            href="mailto:">info@dideetravels.com</a></h5>
+                                <div class="d-flex justify-content-end">
+                                    <a href="contact-us.php" class="btn_1 fontWeight500 simple_btn ms-lg-5">Let's
+                                        Connect!</a>
                                 </div>
+
                             </div>
 
                         </div>
@@ -610,7 +860,7 @@ We also help facilitate the license formalities. For example, ensure you will be
                             <div class="swiper-slide pb-4">
                                 <div class="value_box_home">
                                     <div class="img_box_value">
-                                        <img src="https://www.visa-consultant.com/<?php echo $value['image']; ?>" alt="">
+                                        <img src="<?php echo $value['image']; ?>" alt="">
                                     </div>
                                     <div class="content mt-3">
                                         <h4 class=" "><?php echo $value['title']; ?></h4>
@@ -661,9 +911,11 @@ We also help facilitate the license formalities. For example, ensure you will be
 
                     <div class="why_card">
                         <div class="card_img">
-                            <img src="https://www.visa-consultant.com/images/icons/why_choose/suitcase.png" alt="" />
+                            <img src="<?php echo $featuresData[0]['image']; ?> "
+                                alt="" />
                         </div>
-                        <p class="mt-3  fontWeight600"><?php echo $why_choose[0]['title']; ?> </p>
+                        <p class="mt-3  fontWeight600"><?php echo $featuresData[0]['title']; ?> </p>
+                        <p class="mt-3  "><?php echo $featuresData[0]['description']; ?> </p>
                     </div>
                     <div class="why_card">
                         <div class="why_middle">
@@ -676,41 +928,50 @@ We also help facilitate the license formalities. For example, ensure you will be
                                             Di Dee ?</span>
                                     </h4>
                                 </div>
-
-
                             </div>
 
                         </div>
                     </div>
                     <div class="why_card">
                         <div class="card_img">
-                            <img src="https://www.visa-consultant.com/images/icons/why_choose/suitcase.png" alt="" />
+                            <img src="<?php echo $featuresData[1]['image']; ?>"
+                                alt="" />
                         </div>
-                        <p class="mt-3  fontWeight600"><?php echo $why_choose[1]['title']; ?></p>
+                        <p class="mt-3  fontWeight600"><?php echo $featuresData[1]['title']; ?> </p>
+                        <p class="mt-3  "><?php echo $featuresData[1]['description']; ?> </p>
                     </div>
                     <div class="why_card">
                         <div class="card_img">
-                            <img src="https://www.visa-consultant.com/images/icons/why_choose/suitcase.png" alt="" />
+                            <img src="<?php echo $featuresData[2]['image']; ?>"
+                                alt="" />
                         </div>
-                        <p class="mt-3  fontWeight600"><?php echo $why_choose[2]['title']; ?> </p>
+                        <p class="mt-3  fontWeight600"><?php echo $featuresData[2]['title']; ?> </p>
+                        <p class="mt-3  "><?php echo $featuresData[2]['description']; ?> </p>
                     </div>
                     <div class="why_card">
                         <div class="card_img">
-                            <img src="https://www.visa-consultant.com/images/icons/why_choose/suitcase.png" alt="" />
+                            <img src="<?php echo $featuresData[3]['image']; ?>"
+                                alt="" />
                         </div>
-                        <p class="mt-3  fontWeight600"><?php echo $why_choose[3]['title']; ?></p>
+                        <p class="mt-3  fontWeight600"><?php echo $featuresData[3]['title']; ?></p>
+                        <p class="mt-3  "><?php echo $featuresData[3]['description']; ?> </p>
                     </div>
                     <div class="why_card">
                         <div class="card_img">
-                            <img src="https://www.visa-consultant.com/images/icons/why_choose/suitcase.png" alt="" />
+                            <img src="<?php echo $featuresData[4]['image']; ?>"
+                                alt="" />
                         </div>
-                        <p class="mt-3  fontWeight600"><?php echo $why_choose[4]['title']; ?></p>
+                        <p class="mt-3  fontWeight600"><?php echo $featuresData[4]['title']; ?></p>
+                        <p class="mt-3  "><?php echo $featuresData[4]['description']; ?> </p>
+
                     </div>
                     <div class="why_card">
                         <div class="card_img">
-                            <img src="https://www.visa-consultant.com/images/icons/why_choose/suitcase.png" alt="" />
+                            <img src="<?php echo $featuresData[5]['image']; ?>"
+                                alt="" />
                         </div>
-                        <p class="mt-3  fontWeight600"><?php echo $why_choose[5]['title']; ?></p>
+                        <p class="mt-3  fontWeight600"><?php echo $featuresData[5]['title']; ?></p>
+                        <p class="mt-3"><?php echo $featuresData[5]['description']; ?> </p>
                     </div>
 
 
@@ -724,11 +985,12 @@ We also help facilitate the license formalities. For example, ensure you will be
             <div class="containerFull">
                 <div class="row">
                     <div class="col-lg-6">
-                        <small class="fontWeight600 ">
-                            GET IN TOUCH
-                        </small>
-                        <h4 class="mt-3 fontHeading  heading text_secondary ">
-                            Contact with us for <span class="text_primary">Visa Inquiry</span>
+                        <!--<small class="fontWeight600 ">-->
+                        <!--    GET IN TOUCH-->
+                        <!--</small>-->
+                        <h4 class=" fontHeading  heading text_secondary ">
+                            Have questions <span class="text_primary"> or need assistance? Contact us today for
+                                expert guidance!</span>
                         </h4>
 
                         <div>
@@ -838,6 +1100,54 @@ We also help facilitate the license formalities. For example, ensure you will be
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+    <script>
+        var swiper = new Swiper(".countries_slider", {
+            spaceBetween: 20,
+            // centeredSlides: true,
+            slidesPerView: 4,
+            loop: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+
+            // breakpoints: {
+
+            //     320: {
+            //         slidesPerView: 1,
+            //         spaceBetween: 10
+            //     },
+
+            //     480: {
+            //         slidesPerView: 1,
+            //         spaceBetween: 20
+            //     },
+
+            //     640: {
+            //         slidesPerView: 2,
+            //         spaceBetween: 30
+            //     },
+
+            //     768: {
+            //         slidesPerView: 2,
+            //         spaceBetween: 30
+            //     }
+            //     1024: {
+            //         slidesPerView: 3,
+            //         spaceBetween: 30
+            //     }
+            // }
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+
+            navigation: {
+                nextEl: ".next_1",
+                prevEl: ".prev_1",
             },
         });
     </script>

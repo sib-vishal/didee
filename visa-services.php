@@ -1,118 +1,99 @@
 <?php $page = 'visa-services'; ?>
 <?php
-$why_choose = [
+$featuresData = [
     [
-        'image' => 'images/icons/why_choose/suitcase.png',
-        'title' => '14+ years of working experience with an Embassy/High Commission'
+        'title' => 'Knowledge',
+        'description' => 'We have full knowledge of Immigration services, visa assistance, Translations, & notary services screening of documentation.',
+        'image' => 'images/icons/why/knowledge.png'
     ],
     [
-        'image' => 'images/icons/why_choose/video-call.png',
-        'title' => '15+ years of excellence in consultancy services'
+        'title' => 'Client Centric',
+        'description' => 'We try our very best to provide candidates with most suitable position in their respective fields.',
+        'image' => 'images/icons/why/centric.png'
     ],
     [
-        'image' => 'images/icons/why_choose/customer.png',
-        'title' => '23,000+ Satisfied Customer'
+        'title' => 'Innovative',
+        'description' => 'Our extensive global managed CV database enables us to provide local & global staff.',
+        'image' => 'images/icons/why/innovative.png'
     ],
     [
-        'image' => 'images/icons/why_choose/graduate.png',
-        'title' => '2,500+ Successful Student Visas'
+        'title' => 'Excellence',
+        'description' => 'We committed to deliver a world class people of industry.',
+        'image' => 'images/icons/why/excellence.png'
     ],
     [
-        'image' => 'images/icons/why_choose/book.png',
-        'title' => 'Superior knowledge and understanding of visa rules and regulations'
+        'title' => 'Integrity',
+        'description' => 'We always work honestly, integrity and respect the ethical values.',
+        'image' => 'images/icons/why/integrity.png'
     ],
     [
-        'image' => 'images/icons/why_choose/presentation.png',
-        'title' => 'Detailed financial assessment for case profile'
-    ],
-    [
-        'image' => 'images/icons/why_choose/meeting.png',
-        'title' => 'Customized Interview Preparation'
-    ],
-    [
-        'image' => 'images/icons/why_choose/skills.png',
-        'title' => 'Personal and Professional Integrity'
-    ],
-    [
-        'image' => 'images/icons/why_choose/winner.png',
-        'title' => 'Honest, Impartial & Quality Advice'
-    ],
-    [
-        'image' => 'images/icons/why_choose/skill.png',
-        'title' => 'Unmatched Expertise'
-    ],
-    [
-        'image' => 'images/icons/why_choose/relationship.png',
-        'title' => 'Client Focused Personal & Dedicated Approach'
-    ],
-    [
-        'image' => 'images/icons/why_choose/rating.png',
-        'title' => 'Timely Feedback'
+        'title' => 'Client Satisfaction',
+        'description' => 'We make sure our clients are 100% satisfied with our services & talent delivered.',
+        'image' => 'images/icons/why/satisfaction.png'
     ]
-];
+]; ?>
 
-?>
 <?php
 $countries = [
     [
         'cid' => 7,
         'name' => 'UK',
-        'image' => 'https://www.visa-consultant.com/uploads/images/UK PIC.jpg',
-        'flag' => 'https://www.visa-consultant.com/uploads/images/uk (1).jpg',
+        'image' => 'images/country/UK PIC.jpg',
+        'flag' => 'images/flag/uk (1).jpg',
         'services' => [
             [
                 'title' => 'Reapplication of Refused Cases',
-                'url' => 'https://www.visa-consultant.com/reapplication.php',
+                'url' => 'https://marketingexperts.in/projects/didee/reapplication.php',
                 'icon' => 'fa-briefcase'
             ],
             [
                 'title' => 'Tourist Visa',
-                'url' => 'https://www.visa-consultant.com/uk-tourist-visa',
+                'url' => 'https://marketingexperts.in/projects/didee/uk-tourist-visa',
                 'icon' => 'fa-briefcase'
             ],
             [
                 'title' => 'Short Term Student Visa',
-                'url' => 'https://www.visa-consultant.com/uk-short-term-student-visa',
+                'url' => 'https://marketingexperts.in/projects/didee/uk-short-term-student-visa',
                 'icon' => 'fa-briefcase'
             ],
             [
                 'title' => 'Transit Visa',
-                'url' => 'https://www.visa-consultant.com/uk-transit-visa',
+                'url' => 'https://marketingexperts.in/projects/didee/uk-transit-visa',
                 'icon' => 'fa-briefcase'
             ],
             [
                 'title' => 'Visit - PLAB',
-                'url' => 'https://www.visa-consultant.com/uk-visit-plab',
+                'url' => 'https://marketingexperts.in/projects/didee/uk-visit-plab',
                 'icon' => 'fa-briefcase'
             ],
             [
                 'title' => 'Business Visa',
-                'url' => 'https://www.visa-consultant.com/uk-business-visa',
+                'url' => 'https://marketingexperts.in/projects/didee/uk-business-visa',
                 'icon' => 'fa-briefcase'
             ],
             [
                 'title' => 'Settlement Visa',
-                'url' => 'https://www.visa-consultant.com/uk-settlement-visa',
+                'url' => 'https://marketingexperts.in/projects/didee/uk-settlement-visa',
                 'icon' => 'fa-briefcase'
             ],
             [
                 'title' => 'Tier 4 - Student Dependent Visa',
-                'url' => 'https://www.visa-consultant.com/uk-tier-4-student-dependent-visa',
+                'url' => 'https://marketingexperts.in/projects/didee/uk-tier-4-student-dependent-visa',
                 'icon' => 'fa-briefcase'
             ],
             [
                 'title' => 'Tier 2 (PBS) - Dependent',
-                'url' => 'https://www.visa-consultant.com/uk-tier-2-(pbs)-dependent',
+                'url' => 'https://marketingexperts.in/projects/didee/uk-tier-2-(pbs)-dependent',
                 'icon' => 'fa-briefcase'
             ],
             [
                 'title' => 'Tier 2 (PBS) - General',
-                'url' => 'https://www.visa-consultant.com/uk-tier-2-(pbs)-general',
+                'url' => 'https://marketingexperts.in/projects/didee/uk-tier-2-(pbs)-general',
                 'icon' => 'fa-briefcase'
             ],
             [
                 'title' => 'Tier 4 - Student Visa',
-                'url' => 'https://www.visa-consultant.com/uk-tier-4-student-visa',
+                'url' => 'https://marketingexperts.in/projects/didee/uk-tier-4-student-visa',
                 'icon' => 'fa-briefcase'
             ]
         ]
@@ -120,27 +101,28 @@ $countries = [
     [
         'cid' => 8,
         'name' => 'USA',
-        'image' => 'https://www.visa-consultant.com/uploads/images/USA PIC.jpg',
-        'flag' => 'https://www.visa-consultant.com/uploads/images/usa (1).jpg',
+        'image' => 'images/country/USA PIC.jpg',
+        'flag' => 'images/flag/usa (1).jpg',
+
         'services' => [
             [
                 'title' => 'Tourist Visa',
-                'url' => 'https://www.visa-consultant.com/usa-tourist-visa',
+                'url' => 'https://marketingexperts.in/projects/didee/usa-tourist-visa',
                 'icon' => 'fa-briefcase'
             ],
             [
                 'title' => 'Student Visa',
-                'url' => 'https://www.visa-consultant.com/usa-student-visa',
+                'url' => 'https://marketingexperts.in/projects/didee/usa-student-visa',
                 'icon' => 'fa-graduation-cap'
             ],
             [
                 'title' => 'Work Visa',
-                'url' => 'https://www.visa-consultant.com/usa-work-visa',
+                'url' => 'https://marketingexperts.in/projects/didee/usa-work-visa',
                 'icon' => 'fa-briefcase'
             ],
             [
                 'title' => 'Business Visa',
-                'url' => 'https://www.visa-consultant.com/usa-business-visa',
+                'url' => 'https://marketingexperts.in/projects/didee/usa-business-visa',
                 'icon' => 'fa-briefcase'
             ]
         ]
@@ -148,22 +130,23 @@ $countries = [
     [
         'cid' => 9,
         'name' => 'CANADA',
-        'image' => 'https://www.visa-consultant.com/uploads/images/canada.jpg',
-        'flag' => 'https://www.visa-consultant.com/uploads/images/canada (1).jpg',
+
+        'image' => 'images/country/canada.jpg',
+        'flag' => 'images/flag/canada (1).jpg',
         'services' => [
             [
                 'title' => 'Work Visa',
-                'url' => 'https://www.visa-consultant.com/canada-work-visa',
+                'url' => 'https://marketingexperts.in/projects/didee/canada-work-visa',
                 'icon' => 'fa-briefcase'
             ],
             [
                 'title' => 'Study Visa',
-                'url' => 'https://www.visa-consultant.com/canada-study-visa',
+                'url' => 'https://marketingexperts.in/projects/didee/canada-study-visa',
                 'icon' => 'fa-graduation-cap'
             ],
             [
                 'title' => 'Visitor Visa',
-                'url' => 'https://www.visa-consultant.com/canada-visitor-visa',
+                'url' => 'https://marketingexperts.in/projects/didee/canada-visitor-visa',
                 'icon' => 'fa-plane'
             ]
         ]
@@ -171,22 +154,23 @@ $countries = [
     [
         'cid' => 6,
         'name' => 'AUSTRALIA',
-        'image' => 'https://www.visa-consultant.com/uploads/images/australia.jpg',
-        'flag' => 'https://www.visa-consultant.com/uploads/images/australia.png',
+
+        'image' => 'images/country/australia.jpg',
+        'flag' => 'images/flag/australia.png',
         'services' => [
             [
                 'title' => 'Visitor Visa',
-                'url' => 'https://www.visa-consultant.com/australia-visitor-visa',
+                'url' => 'https://marketingexperts.in/projects/didee/australia-visitor-visa',
                 'icon' => 'fa-plane'
             ],
             [
                 'title' => 'Work Visa',
-                'url' => 'https://www.visa-consultant.com/australia-work-visa',
+                'url' => 'https://marketingexperts.in/projects/didee/australia-work-visa',
                 'icon' => 'fa-briefcase'
             ],
             [
                 'title' => 'Student Visa',
-                'url' => 'https://www.visa-consultant.com/australia-student-visa',
+                'url' => 'https://marketingexperts.in/projects/didee/australia-student-visa',
                 'icon' => 'fa-graduation-cap'
             ]
         ]
@@ -194,22 +178,23 @@ $countries = [
     [
         'cid' => 59,
         'name' => 'NEW ZEALAND',
-        'image' => 'https://www.visa-consultant.com/uploads/images/NZ PIC.jpg',
-        'flag' => 'https://www.visa-consultant.com/uploads/images/nz-flag.png',
+
+        'image' => 'images/country/NZ PIC.jpg',
+        'flag' => 'images/flag/nz-flag.png',
         'services' => [
             [
                 'title' => 'Visitor Visa',
-                'url' => 'https://www.visa-consultant.com/new-zealand-visitor-visa',
+                'url' => 'https://marketingexperts.in/projects/didee/new-zealand-visitor-visa',
                 'icon' => 'fa-plane'
             ],
             [
                 'title' => 'Student Visa',
-                'url' => 'https://www.visa-consultant.com/new-zealand-student-visa',
+                'url' => 'https://marketingexperts.in/projects/didee/new-zealand-student-visa',
                 'icon' => 'fa-graduation-cap'
             ],
             [
                 'title' => 'Work Visa',
-                'url' => 'https://www.visa-consultant.com/new-zealand-work-visa',
+                'url' => 'https://marketingexperts.in/projects/didee/new-zealand-work-visa',
                 'icon' => 'fa-briefcase'
             ]
         ]
@@ -217,22 +202,23 @@ $countries = [
     [
         'cid' => 45,
         'name' => 'IRELAND',
-        'image' => 'https://www.visa-consultant.com/uploads/images/IRELAND PIC.jpg',
-        'flag' => 'https://www.visa-consultant.com/uploads/images/ireland.jpg',
+
+        'image' => 'images/country/IRELAND PIC.jpg',
+        'flag' => 'images/flag/ireland.jpg',
         'services' => [
             [
                 'title' => 'Tourist Visa',
-                'url' => 'https://www.visa-consultant.com/ireland-tourist-visa',
+                'url' => 'https://marketingexperts.in/projects/didee/ireland-tourist-visa',
                 'icon' => 'fa-briefcase'
             ],
             [
                 'title' => 'Work Visa',
-                'url' => 'https://www.visa-consultant.com/ireland-work-visa',
+                'url' => 'https://marketingexperts.in/projects/didee/ireland-work-visa',
                 'icon' => 'fa-briefcase'
             ],
             [
                 'title' => 'Student Visa',
-                'url' => 'https://www.visa-consultant.com/ireland-student-visa',
+                'url' => 'https://marketingexperts.in/projects/didee/ireland-student-visa',
                 'icon' => 'fa-graduation-cap'
             ]
         ]
@@ -240,22 +226,23 @@ $countries = [
     [
         'cid' => 47,
         'name' => 'JAPAN',
-        'image' => 'https://www.visa-consultant.com/uploads/images/Japan pic.jpg',
-        'flag' => 'https://www.visa-consultant.com/uploads/images/Flag-Japan.jpg',
+
+        'image' => 'images/country/Japan pic.jpg',
+        'flag' => 'images/flag/Flag-Japan (1).jpg',
         'services' => [
             [
                 'title' => 'Tourist Visa',
-                'url' => 'https://www.visa-consultant.com/japan-tourist-visa',
+                'url' => 'https://marketingexperts.in/projects/didee/japan-tourist-visa',
                 'icon' => 'fa-briefcase'
             ],
             [
                 'title' => 'Work Visa',
-                'url' => 'https://www.visa-consultant.com/japan-work-visa',
+                'url' => 'https://marketingexperts.in/projects/didee/japan-work-visa',
                 'icon' => 'fa-briefcase'
             ],
             [
                 'title' => 'Student Visa',
-                'url' => 'https://www.visa-consultant.com/japan-student-visa',
+                'url' => 'https://marketingexperts.in/projects/didee/japan-student-visa',
                 'icon' => 'fa-graduation-cap'
             ]
         ]
@@ -268,18 +255,19 @@ $countries = [
         'services' => [
             [
                 'title' => 'Tourist Visa',
-                'url' => 'https://www.visa-consultant.com/schengen-tourist-visa',
+                'url' => 'https://marketingexperts.in/projects/didee/schengen-tourist-visa',
                 'icon' => 'fa-plane'
             ],
             [
                 'title' => 'Business Visa',
-                'url' => 'https://www.visa-consultant.com/schengen-business-visa',
+                'url' => 'https://marketingexperts.in/projects/didee/schengen-business-visa',
                 'icon' => 'fa-briefcase'
             ]
         ]
     ]
 ];
 ?>
+
 
 
 <!DOCTYPE html>
@@ -312,23 +300,19 @@ $countries = [
 <body>
     <?php include 'include/header.php'; ?>
     <div class="wrapper">
-        <!-- <div class="services-banner">
+        <div class="services-banner">
             <div class="containerFull w-100">
                 <div class="banner-inner  ">
                     <h1 class="fontHeading heading text-white fontWeight800 ">
                         Visa Services
 
                     </h1>
-                    <p class="mt-3 text-white col-lg-5">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, repudiandae unde beatae accusamus
-                        laudantium fuga magni vel inventore perferendis ullam explicabo, nesciunt debitis. Itaque dicta
-                        repudiandae eos deleniti cum nisi.z
-                    </p>
+
 
                 </div>
             </div>
-        </div> -->
-        <section class="search-form">
+        </div>
+        <!-- <section class="search-form">
             <div class="containerFull">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 search-form-inner">
@@ -375,7 +359,7 @@ $countries = [
 
             </div>
 
-        </section>
+        </section>    -->
 
 
         <section>
@@ -401,20 +385,26 @@ $countries = [
                         <div class="col-md-4 col-sm-6 col-lg-3 mb-4 ">
                             <div type="button" data-bs-toggle="modal" data-bs-target="#model<?= $country['cid']; ?>"
                                 class="country_box">
+                                <div class="flag">
+                                    <?php if ($country['flag']): ?>
+                                        <img class="" src="<?= $country['flag']; ?>" alt="">
+                                    <?php endif; ?>
+                                </div>
+
                                 <div class="img">
                                     <img class="w-100" src="<?= $country['image']; ?>" alt="">
                                 </div>
                                 <div class="content">
-                                    <div class="flag">
+                                    <!-- <div class="flag">
                                         <?php if ($country['flag']): ?>
                                             <img class="" src="<?= $country['flag']; ?>" alt="">
                                         <?php endif; ?>
-                                    </div>
+                                    </div> -->
                                     <p class="name fontWeight600"><?= $country['name']; ?></p>
 
                                 </div>
                             </div>
-                            <!-- model -->
+
                             <div class="modal fade" id="model<?= $country['cid']; ?>" data-bs-backdrop="static"
                                 data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
                                 aria-hidden="true">
@@ -452,8 +442,7 @@ $countries = [
                                     </div>
                                 </div>
                             </div>
-                            <!-- Modal -->
-                            <!-- model -->
+
                         </div>
                     <?php endforeach; ?>
                 </div>
@@ -470,9 +459,10 @@ $countries = [
 
                     <div class="why_card">
                         <div class="card_img">
-                            <img src="https://www.visa-consultant.com/images/icons/why_choose/suitcase.png" alt="" />
+                            <img src="<?php echo $featuresData[0]['image']; ?> " alt="" />
                         </div>
-                        <p class="mt-3  fontWeight600"><?php echo $why_choose[0]['title']; ?> </p>
+                        <p class="mt-3  fontWeight600"><?php echo $featuresData[0]['title']; ?> </p>
+                        <p class="mt-3  "><?php echo $featuresData[0]['description']; ?> </p>
                     </div>
                     <div class="why_card">
                         <div class="why_middle">
@@ -485,41 +475,45 @@ $countries = [
                                             Di Dee ?</span>
                                     </h4>
                                 </div>
-
-
                             </div>
 
                         </div>
                     </div>
                     <div class="why_card">
                         <div class="card_img">
-                            <img src="https://www.visa-consultant.com/images/icons/why_choose/suitcase.png" alt="" />
+                            <img src="<?php echo $featuresData[1]['image']; ?>" alt="" />
                         </div>
-                        <p class="mt-3  fontWeight600"><?php echo $why_choose[1]['title']; ?></p>
+                        <p class="mt-3  fontWeight600"><?php echo $featuresData[1]['title']; ?> </p>
+                        <p class="mt-3  "><?php echo $featuresData[1]['description']; ?> </p>
                     </div>
                     <div class="why_card">
                         <div class="card_img">
-                            <img src="https://www.visa-consultant.com/images/icons/why_choose/suitcase.png" alt="" />
+                            <img src="<?php echo $featuresData[2]['image']; ?>" alt="" />
                         </div>
-                        <p class="mt-3  fontWeight600"><?php echo $why_choose[2]['title']; ?> </p>
+                        <p class="mt-3  fontWeight600"><?php echo $featuresData[2]['title']; ?> </p>
+                        <p class="mt-3  "><?php echo $featuresData[2]['description']; ?> </p>
                     </div>
                     <div class="why_card">
                         <div class="card_img">
-                            <img src="https://www.visa-consultant.com/images/icons/why_choose/suitcase.png" alt="" />
+                            <img src="<?php echo $featuresData[3]['image']; ?>" alt="" />
                         </div>
-                        <p class="mt-3  fontWeight600"><?php echo $why_choose[3]['title']; ?></p>
+                        <p class="mt-3  fontWeight600"><?php echo $featuresData[3]['title']; ?></p>
+                        <p class="mt-3  "><?php echo $featuresData[3]['description']; ?> </p>
                     </div>
                     <div class="why_card">
                         <div class="card_img">
-                            <img src="https://www.visa-consultant.com/images/icons/why_choose/suitcase.png" alt="" />
+                            <img src="<?php echo $featuresData[4]['image']; ?>" alt="" />
                         </div>
-                        <p class="mt-3  fontWeight600"><?php echo $why_choose[4]['title']; ?></p>
+                        <p class="mt-3  fontWeight600"><?php echo $featuresData[4]['title']; ?></p>
+                        <p class="mt-3  "><?php echo $featuresData[4]['description']; ?> </p>
+
                     </div>
                     <div class="why_card">
                         <div class="card_img">
-                            <img src="https://www.visa-consultant.com/images/icons/why_choose/suitcase.png" alt="" />
+                            <img src="<?php echo $featuresData[5]['image']; ?>" alt="" />
                         </div>
-                        <p class="mt-3  fontWeight600"><?php echo $why_choose[5]['title']; ?></p>
+                        <p class="mt-3  fontWeight600"><?php echo $featuresData[5]['title']; ?></p>
+                        <p class="mt-3"><?php echo $featuresData[5]['description']; ?> </p>
                     </div>
 
 

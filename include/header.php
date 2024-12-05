@@ -2,10 +2,12 @@
 	<div class="containerFull contact-details">
 		<div class="contact-details-inner">
 			<div>
-				<a class="me-2" href="mailto:exp@visa-consultant.com"><i class="fa-regular fa-envelope me-2"></i>
-					exp@visa-consultant.com</a> |
+				<a class="me-2" href="mailto:e info@dideeinternational.com
+"><i class="fa-regular fa-envelope me-2"></i>
+					info@dideeinternational.com
+				</a> |
 
-				<a class="ms-2" href="tel:0123456789"> <i class="fa-solid fa-phone me-2"></i>+910123456789</a>
+				<a class="ms-2" href="tel:+919625930455"> <i class="fa-solid fa-phone me-2"></i>+919625930455</a>
 			</div>
 
 			<div class="socialLinks mt-md-3 mt-lg-0">
@@ -37,8 +39,9 @@
 						<li><a class="<?php echo ($page == 'home') ? 'active' : ''; ?>" href="index.php">Home</a></li>
 						<li><a class="<?php echo ($page == 'about') ? 'active' : ''; ?>" href="about-us.php">About
 								Us</a></li>
-						<li><a class="<?php echo ($page == 'immigration') ? 'active' : ''; ?>"
+						<!-- <li><a class="<?php echo ($page == 'immigration') ? 'active' : ''; ?>"
 								href="immigration-services.php">Immigration Services</a>
+						</li> -->
 						<li><a class="<?php echo ($page == 'visa-services') ? 'active' : ''; ?>"
 								href="visa-services.php">Visa Services</a>
 
@@ -79,7 +82,7 @@
 		<div class="offcanvas-header">
 			<div class="leftLogo">
 				<a href="index.php">
-					<h2 class="sub_heading text-center text_primary fontWeight600 fontHeading">Elopement</h2>
+					<h2 class="sub_heading text-center text_primary fontWeight600 fontHeading">Di Dee Travels</h2>
 				</a>
 			</div>
 			<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
